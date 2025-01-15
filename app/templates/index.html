@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Network Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-green-900 font-sans">
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold text-center mb-8">Neural Network Manager</h1>
+
+        <!-- Data Selection Section -->
+        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Step 1: Select Data Source</h2>
+            <div class="flex flex-wrap gap-4">
+                <button onclick="selectData('default1')" class="bg-green-500 text-white py-2 px-4 rounded">Default Robotics Data</button>
+                <button onclick="selectData('default2')" class="bg-green-500 text-white py-2 px-4 rounded">Default Football Data</button>
+                <button onclick="selectData('scraper1')" class="bg-blue-500 text-white py-2 px-4 rounded">Run Robotics Scraper</button>
+                <button onclick="selectData('scraper2')" class="bg-blue-500 text-white py-2 px-4 rounded">Run Football Scraper</button>
+            </div>
+            <div id="dataStatus" class="mt-4 text-sm text-gray-800"></div>
+        </div>
+
+        <!-- Train Model Section -->
+        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Step 2: Train the Model</h2>
+            <button onclick="trainModel()" class="bg-green-700 text-white py-2 px-4 rounded">Train Model</button>
+            <div id="trainStatus" class="mt-4 text-sm text-gray-800"></div>
+        </div>
+
+        <!-- Use Last Trained Model Section -->
+        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Step 3: Use Last Trained Model</h2>
+            <button id="useLastModelButton" onclick="useLastTrainedModel()" class="bg-purple-500 text-white py-2 px-4 rounded">
+                Loading...
+            </button>
+            <div id="lastModelStatus" class="mt-4 text-sm text-gray-800"></div>
+        </div>
+
+        <!-- Logs Section -->
+        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Application Logs</h2>
+            <ul class="bg-white p-4 rounded shadow max-h-64 overflow-y-auto">
+                {% for log in logs %}
+                    <li class="mb-2">{{ log }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        async function selectData(selection) {
+            const statusDiv = document.getElementById("dataStatus");
+            statusDiv.textContent = "Loading data...";
+            try {
+                const response = await fetch("/select", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ selection })
+                });
+                const result = await response.json();
+                statusDiv.textContent = result.status === "success" ? `Success: ${result.message}` : `Error: ${result.message}`;
+            } catch (err) {
+                statusDiv.textContent = "An error occurred.";
+                console.error(err);
+            }
+        }
+
+        async function trainModel() {
+            const statusDiv = document.getElementById("trainStatus");
+            statusDiv.textContent = "Training...";
+            try {
+                const response = await fetch("/train", { method: "POST" });
+                if (response.redirected) {
+                    window.location.href = response.url; // Redirect to predictions page
+                } else {
+                    const result = await response.json();
+                    statusDiv.textContent = result.status === "success" ? "Training complete." : `Error: ${result.message}`;
+                    updateLastModelButton();
+                }
+            } catch (err) {
+                statusDiv.textContent = "An error occurred.";
+                console.error(err);
+            }
+        }
+
+        async function updateLastModelButton() {
+            const button = document.getElementById("useLastModelButton");
+            try {
+                const response = await fetch("/get_last_trained");
+                const result = await response.json();
+                if (result.status === "success") {
+                    button.textContent = `Use Last Trained Model (${result.model_type.charAt(0).toUpperCase() + result.model_type.slice(1)} Trained)`;
+                } else {
+                    button.textContent = "No Model Trained Yet";
+                    button.disabled = true;
+                }
+            } catch (err) {
+                console.error(err);
+                button.textContent = "Error Loading Info";
+                button.disabled = true;
+            }
+        }
+
+        async function useLastTrainedModel() {
+            const statusDiv = document.getElementById("lastModelStatus");
+            statusDiv.textContent = "Loading last model...";
+            try {
+                const response = await fetch("/use_last_trained", { method: "POST" });
+                if (response.redirected) {
+                    window.location.href = response.url; // Redirect to predictions page
+                } else {
+                    const result = await response.json();
+                    statusDiv.textContent = result.status === "success" ? result.message : `Error: ${result.message}`;
+                }
+            } catch (err) {
+                statusDiv.textContent = "An error occurred.";
+                console.error(err);
+            }
+        }
+
+        updateLastModelButton();
+    </script>
+</body>
+</html>

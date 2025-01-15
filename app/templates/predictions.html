@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-50 text-green-900 font-sans">
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold text-center mb-8">Make Predictions</h1>
+
+        <!-- League Selection -->
+        <div class="mb-4">
+            <label for="league" class="block font-bold">Select League:</label>
+            <select id="league" name="league" class="w-full p-2 border rounded" onchange="updateTeams()">
+                <option value="" selected disabled>Select a league</option>
+                {% for league in leagues %}
+                    <option value="{{ league }}">{{ league }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <!-- Teams Selection -->
+        <div id="teamsContainer" class="hidden">
+            <div class="mb-4">
+                <label for="homeTeam" class="block font-bold">Home Team:</label>
+                <select id="homeTeam" name="homeTeam" class="w-full p-2 border rounded">
+                    <option value="" selected disabled>Select a home team</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="awayTeam" class="block font-bold">Away Team:</label>
+                <select id="awayTeam" name="awayTeam" class="w-full p-2 border rounded">
+                    <option value="" selected disabled>Select an away team</option>
+                </select>
+            </div>
+            <button onclick="getPrediction()" class="bg-green-700 text-white py-2 px-4 rounded">Get Prediction</button>
+        </div>
+
+        <!-- Prediction Result -->
+        <div id="result" class="mt-6 text-lg"></div>
+
+        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
+            <h2 class="text-2xl font-semibold mb-4">Application Logs</h2>
+            <ul class="bg-white p-4 rounded shadow max-h-64 overflow-y-auto">
+                {% for log in logs %}
+                    <li class="mb-2">{{ log }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        async function updateTeams() {
+            const league = document.getElementById("league").value;
+            const teamsContainer = document.getElementById("teamsContainer");
+            const homeTeamSelect = document.getElementById("homeTeam");
+            const awayTeamSelect = document.getElementById("awayTeam");
+            const resultDiv = document.getElementById("result");
+
+            teamsContainer.classList.add("hidden");
+            resultDiv.textContent = "";
+            homeTeamSelect.innerHTML = '<option value="" selected disabled>Select a home team</option>';
+            awayTeamSelect.innerHTML = '<option value="" selected disabled>Select an away team</option>';
+
+            if (!league) return;
+
+            try {
+                const response = await fetch("/get_teams", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ league })
+                });
+                const data = await response.json();
+                if (data.status === "success") {
+                    data.teams.forEach(team => {
+                        const homeOption = new Option(team, team);
+                        const awayOption = new Option(team, team);
+                        homeTeamSelect.add(homeOption);
+                        awayTeamSelect.add(awayOption);
+                    });
+                    teamsContainer.classList.remove("hidden");
+                } else {
+                    resultDiv.textContent = `Error: ${data.message}`;
+                }
+            } catch (err) {
+                resultDiv.textContent = "An error occurred while fetching teams.";
+                console.error(err);
+            }
+        }
+
+        async function getPrediction() {
+            const homeTeam = document.getElementById("homeTeam").value;
+            const awayTeam = document.getElementById("awayTeam").value;
+            const resultDiv = document.getElementById("result");
+
+            if (!homeTeam || !awayTeam) {
+                resultDiv.textContent = "Please select both teams.";
+                return;
+            }
+
+            resultDiv.textContent = "Fetching prediction...";
+
+            try {
+                const response = await fetch("/predict", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ home_team: homeTeam, away_team: awayTeam })
+                });
+                const data = await response.json();
+                if (data.status === "success") {
+                    const prediction = data.prediction;
+                    resultDiv.innerHTML = `
+                        <p><strong>Home Win:</strong> ${prediction["Home Win"].toFixed(2)}%</p>
+                        <p><strong>Draw:</strong> ${prediction["Draw"].toFixed(2)}%</p>
+                        <p><strong>Away Win:</strong> ${prediction["Away Win"].toFixed(2)}%</p>
+                    `;
+                } else {
+                    resultDiv.textContent = `Error: ${data.message}`;
+                }
+            } catch (err) {
+                resultDiv.textContent = "An error occurred while fetching prediction.";
+                console.error(err);
+            }
+        }
+    </script>
+</body>
+</html>
