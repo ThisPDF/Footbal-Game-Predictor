@@ -1,4 +1,6 @@
 import os
+import webbrowser
+
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -216,4 +218,5 @@ def predictions():
     return render_template("predictions.html", leagues=leagues, logs=user_logs)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    webbrowser.open("http://127.0.0.1:5001")  # Auto open in browser
+    app.run(host="0.0.0.0", port=5001, debug=False)
