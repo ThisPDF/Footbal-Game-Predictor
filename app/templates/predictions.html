@@ -25,13 +25,13 @@
         <div id="teamsContainer" class="hidden">
             <div class="mb-4">
                 <label for="homeTeam" class="block font-bold">Home Team:</label>
-                <select id="homeTeam" name="homeTeam" class="w-full p-2 border rounded">
+                <select id="homeTeam" name="homeTeam" class="w-full p-2 border rounded" onchange="restrictTeamSelection()">
                     <option value="" selected disabled>Select a home team</option>
                 </select>
             </div>
             <div class="mb-4">
                 <label for="awayTeam" class="block font-bold">Away Team:</label>
-                <select id="awayTeam" name="awayTeam" class="w-full p-2 border rounded">
+                <select id="awayTeam" name="awayTeam" class="w-full p-2 border rounded" onchange="restrictTeamSelection()">
                     <option value="" selected disabled>Select an away team</option>
                 </select>
             </div>
@@ -39,9 +39,10 @@
         </div>
 
         <!-- Prediction Result -->
-        <div id="result" class="mt-6 text-lg"></div>
+        <div id="result" class="mt-6 text-lg font-semibold text-center"></div>
 
-        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
+        <!-- Application Logs -->
+        <div class="bg-green-100 shadow-md rounded-lg p-6 mt-6">
             <h2 class="text-2xl font-semibold mb-4">Application Logs</h2>
             <ul class="bg-white p-4 rounded shadow max-h-64 overflow-y-auto">
                 {% for log in logs %}
@@ -60,7 +61,7 @@
             const resultDiv = document.getElementById("result");
 
             teamsContainer.classList.add("hidden");
-            resultDiv.textContent = "";
+            resultDiv.innerHTML = "";
             homeTeamSelect.innerHTML = '<option value="" selected disabled>Select a home team</option>';
             awayTeamSelect.innerHTML = '<option value="" selected disabled>Select an away team</option>';
 
@@ -75,17 +76,15 @@
                 const data = await response.json();
                 if (data.status === "success") {
                     data.teams.forEach(team => {
-                        const homeOption = new Option(team, team);
-                        const awayOption = new Option(team, team);
-                        homeTeamSelect.add(homeOption);
-                        awayTeamSelect.add(awayOption);
+                        homeTeamSelect.add(new Option(team, team));
+                        awayTeamSelect.add(new Option(team, team));
                     });
                     teamsContainer.classList.remove("hidden");
                 } else {
-                    resultDiv.textContent = `Error: ${data.message}`;
+                    resultDiv.innerHTML = `<span class="text-red-600">❌ Error: ${data.message}</span>`;
                 }
             } catch (err) {
-                resultDiv.textContent = "An error occurred while fetching teams.";
+                resultDiv.innerHTML = "<span class='text-red-600'>❌ An error occurred while fetching teams.</span>";
                 console.error(err);
             }
         }
@@ -96,11 +95,11 @@
             const resultDiv = document.getElementById("result");
 
             if (!homeTeam || !awayTeam) {
-                resultDiv.textContent = "Please select both teams.";
+                resultDiv.innerHTML = "<span class='text-red-600'>❌ Please select both teams.</span>";
                 return;
             }
 
-            resultDiv.textContent = "Fetching prediction...";
+            resultDiv.innerHTML = "<span class='text-yellow-600'>⏳ Fetching prediction...</span>";
 
             try {
                 const response = await fetch("/predict", {
@@ -112,17 +111,32 @@
                 if (data.status === "success") {
                     const prediction = data.prediction;
                     resultDiv.innerHTML = `
-                        <p><strong>Home Win:</strong> ${prediction["Home Win"].toFixed(2)}%</p>
-                        <p><strong>Draw:</strong> ${prediction["Draw"].toFixed(2)}%</p>
-                        <p><strong>Away Win:</strong> ${prediction["Away Win"].toFixed(2)}%</p>
+                        <p class="text-green-700"><strong>🏠 Home Win:</strong> ${prediction["Home Win"].toFixed(2)}%</p>
+                        <p class="text-yellow-600"><strong>➖ Draw:</strong> ${prediction["Draw"].toFixed(2)}%</p>
+                        <p class="text-red-600"><strong>🚀 Away Win:</strong> ${prediction["Away Win"].toFixed(2)}%</p>
                     `;
                 } else {
-                    resultDiv.textContent = `Error: ${data.message}`;
+                    resultDiv.innerHTML = `<span class="text-red-600">❌ Error: ${data.message}</span>`;
                 }
             } catch (err) {
-                resultDiv.textContent = "An error occurred while fetching prediction.";
+                resultDiv.innerHTML = "<span class='text-red-600'>❌ An error occurred while fetching prediction.</span>";
                 console.error(err);
             }
+        }
+
+        function restrictTeamSelection() {
+            const homeTeamSelect = document.getElementById("homeTeam");
+            const awayTeamSelect = document.getElementById("awayTeam");
+            const homeTeam = homeTeamSelect.value;
+            const awayTeam = awayTeamSelect.value;
+
+            Array.from(homeTeamSelect.options).forEach(option => {
+                option.hidden = (option.value === awayTeam);
+            });
+
+            Array.from(awayTeamSelect.options).forEach(option => {
+                option.hidden = (option.value === homeTeam);
+            });
         }
     </script>
 </body>

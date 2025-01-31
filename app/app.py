@@ -30,14 +30,59 @@ last_trained_context = {"model_type": None}
 if not os.path.exists(MODEL_PATH):
     os.makedirs(MODEL_PATH)
 
+
 @app.route("/")
 def index():
-    """Render the main page."""
     return render_template("index.html", logs=user_logs)
+
+
+@app.route("/get_models", methods=["GET"])
+def get_models():
+    """Fetch available trained models"""
+    available_models = []
+    for model_name in ["robotics", "football"]:
+        model_path = os.path.join(MODEL_PATH, f"{model_name}_model.keras")
+        if os.path.exists(model_path):
+            available_models.append(model_name)
+
+    return jsonify({"status": "success", "models": available_models})
+
+@app.route("/get_teams", methods=["POST"])
+def get_teams():
+    """Retrieve teams based on the selected league."""
+    global data
+
+    if data is None or data.empty:
+        return jsonify({"status": "error", "message": "No data loaded!"})
+
+    try:
+        req_data = request.json
+        league = req_data.get("league")
+
+        if not league:
+            return jsonify({"status": "error", "message": "No league provided!"})
+
+        # Ensure required columns exist
+        required_columns = ["League", "HomeTeam"]
+        missing_columns = [col for col in required_columns if col not in data.columns]
+
+        if missing_columns:
+            return jsonify({"status": "error", "message": f"Missing columns in dataset: {', '.join(missing_columns)}"})
+
+        # Filter teams by league
+        teams = data[data['League'] == league]['HomeTeam'].unique().tolist()
+
+        if not teams:
+            return jsonify({"status": "error", "message": f"No teams found for league '{league}'."})
+
+        return jsonify({"status": "success", "teams": sorted(teams)})
+    except Exception as e:
+        print(f"Error retrieving teams: {e}")
+        return jsonify({"status": "error", "message": str(e)})
 
 @app.route("/select", methods=["POST"])
 def select_data():
-    """Handle data selection or scraper execution."""
+    """Handle data selection"""
     global current_csv_path, data
 
     selection = request.json.get("selection")
@@ -58,51 +103,12 @@ def select_data():
         else:
             return jsonify({"status": "error", "message": "Invalid selection!"})
 
-        print(f"Debug: Loading data from {current_csv_path}")
         data = pd.read_csv(current_csv_path)
-        required_columns = ['HomeTeam', 'AwayTeam', 'Result', 'HomeGoals', 'AwayGoals', 'League']
-        if not all(column in data.columns for column in required_columns):
-            data = None
-            return jsonify({"status": "error", "message": "Required data columns are missing."})
-
         user_logs.append(f"Data successfully loaded from: {os.path.basename(current_csv_path)}")
         return jsonify({"status": "success", "message": f"Data loaded from {current_csv_path}"})
     except Exception as e:
-        print(f"Error loading data: {e}")
         return jsonify({"status": "error", "message": str(e)})
 
-@app.route("/get_teams", methods=["POST"])
-def get_teams():
-    """Retrieve teams based on the selected league."""
-    global data
-
-    if data is None:
-        return jsonify({"status": "error", "message": "No data loaded!"})
-
-    try:
-        req_data = request.json
-        league = req_data.get("league")
-
-        if not league:
-            return jsonify({"status": "error", "message": "No league provided!"})
-
-        # Ensure the dataset contains the required columns
-        required_columns = ["League", "HomeTeam"]
-        for column in required_columns:
-            if column not in data.columns:
-                return jsonify({"status": "error", "message": f"Column '{column}' is missing from the dataset!"})
-
-        # Filter teams by the selected league
-        teams = data[data['League'] == league]['HomeTeam'].unique().tolist()
-        print(f"Debug: Teams retrieved for league '{league}': {teams}")
-
-        if not teams:
-            return jsonify({"status": "error", "message": f"No teams found for league '{league}'."})
-
-        return jsonify({"status": "success", "teams": sorted(teams)})
-    except Exception as e:
-        print(f"Error retrieving teams: {e}")
-        return jsonify({"status": "error", "message": str(e)})
 
 @app.route("/train", methods=["POST"])
 def train_model():
@@ -110,7 +116,6 @@ def train_model():
     global data, model, current_csv_path, last_trained_context
 
     if not current_csv_path or data is None:
-        user_logs.append("Error: No data selected for training.")
         return jsonify({"status": "error", "message": "No data selected!"})
 
     try:
@@ -118,7 +123,6 @@ def train_model():
         X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.1, random_state=42)
 
         # Train the model
-        print("Training model...")
         hyperparameters = {
             "num_layers": [2, 3],
             "units": [32, 64],
@@ -131,21 +135,45 @@ def train_model():
         )
 
         # Save the model
-        if "robotics" in current_csv_path:
-            model_path = os.path.join(MODEL_PATH, "robotics_model.keras")
-            last_trained_context["model_type"] = "robotics"
-        elif "football" in current_csv_path:
-            model_path = os.path.join(MODEL_PATH, "football_model.keras")
-            last_trained_context["model_type"] = "football"
+        model_type = "robotics" if "robotics" in current_csv_path else "football"
+        model_path = os.path.join(MODEL_PATH, f"{model_type}_model.keras")
+        last_trained_context["model_type"] = model_type
 
         model.save(model_path)
-        user_logs.append(f"Model trained and saved at {model_path}. Best Hyperparameters: {best_params}")
-        print(f"Debug: Model saved and last_trained_context updated to {last_trained_context}")
-        return redirect(url_for("predictions"))  # Redirect to predictions page
+        user_logs.append(f"Model trained and saved at {model_path}")
+
+        return jsonify({"status": "success", "message": "Model trained successfully.", "redirect": "/predictions"})
     except Exception as e:
-        print(f"Training error: {e}")
-        user_logs.append(f"Error during training: {e}")
         return jsonify({"status": "error", "message": str(e)})
+
+
+@app.route("/use_last_trained", methods=["POST"])
+def use_last_trained():
+    """Load the selected trained model and redirect to predictions."""
+    global model
+
+    model_type = request.json.get("model_type")
+
+    if model_type not in ["robotics", "football"]:
+        return jsonify({"status": "error", "message": "Invalid model type!"})
+
+    model_path = os.path.join(MODEL_PATH, f"{model_type}_model.keras")
+
+    if not os.path.exists(model_path):
+        return jsonify({"status": "error", "message": f"{model_type} model not found."})
+
+    try:
+        model = load_model(model_path)
+        user_logs.append(f"Model loaded: {model_type}")
+
+        return jsonify({
+            "status": "success",
+            "message": f"{model_type.capitalize()} model loaded successfully.",
+            "redirect": "/predictions"  # 🚀 Added redirect field
+        })
+    except Exception as e:
+        return jsonify({"status": "error", "message": str(e)})
+
 
 @app.route("/predict", methods=["POST"])
 def predict():

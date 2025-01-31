@@ -10,7 +10,7 @@
     <div class="container mx-auto p-6">
         <h1 class="text-4xl font-bold text-center mb-8">Neural Network Manager</h1>
 
-        <!-- Data Selection Section -->
+        <!-- Step 1: Select Data Source -->
         <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold mb-4">Step 1: Select Data Source</h2>
             <div class="flex flex-wrap gap-4">
@@ -22,37 +22,28 @@
             <div id="dataStatus" class="mt-4 text-sm text-gray-800"></div>
         </div>
 
-        <!-- Train Model Section -->
+        <!-- Step 2: Train Model -->
         <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold mb-4">Step 2: Train the Model</h2>
             <button onclick="trainModel()" class="bg-green-700 text-white py-2 px-4 rounded">Train Model</button>
             <div id="trainStatus" class="mt-4 text-sm text-gray-800"></div>
         </div>
 
-        <!-- Use Last Trained Model Section -->
+        <!-- Step 3: Use Last Trained Model -->
         <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
             <h2 class="text-2xl font-semibold mb-4">Step 3: Use Last Trained Model</h2>
-            <button id="useLastModelButton" onclick="useLastTrainedModel()" class="bg-purple-500 text-white py-2 px-4 rounded">
-                Loading...
-            </button>
+            <select id="modelSelector" class="bg-white border rounded px-4 py-2">
+                <option value="">Loading models...</option>
+            </select>
+            <button onclick="useLastTrainedModel()" class="bg-purple-500 text-white py-2 px-4 rounded ml-2">Load Model</button>
             <div id="lastModelStatus" class="mt-4 text-sm text-gray-800"></div>
-        </div>
-
-        <!-- Logs Section -->
-        <div class="bg-green-100 shadow-md rounded-lg p-6 mb-6">
-            <h2 class="text-2xl font-semibold mb-4">Application Logs</h2>
-            <ul class="bg-white p-4 rounded shadow max-h-64 overflow-y-auto">
-                {% for log in logs %}
-                    <li class="mb-2">{{ log }}</li>
-                {% endfor %}
-            </ul>
         </div>
     </div>
 
     <script>
         async function selectData(selection) {
             const statusDiv = document.getElementById("dataStatus");
-            statusDiv.textContent = "Loading data...";
+            statusDiv.innerHTML = "<span class='text-yellow-600'>Loading data...</span>";
             try {
                 const response = await fetch("/select", {
                     method: "POST",
@@ -60,67 +51,82 @@
                     body: JSON.stringify({ selection })
                 });
                 const result = await response.json();
-                statusDiv.textContent = result.status === "success" ? `Success: ${result.message}` : `Error: ${result.message}`;
+                statusDiv.innerHTML = result.status === "success"
+                    ? `<span class='text-green-600'>✅ ${result.message}</span>`
+                    : `<span class='text-red-600'>❌ ${result.message}</span>`;
             } catch (err) {
-                statusDiv.textContent = "An error occurred.";
+                statusDiv.innerHTML = "<span class='text-red-600'>❌ An error occurred.</span>";
                 console.error(err);
             }
         }
 
         async function trainModel() {
             const statusDiv = document.getElementById("trainStatus");
-            statusDiv.textContent = "Training...";
+            statusDiv.innerHTML = "<span class='text-yellow-600'>Training in progress...</span>";
             try {
                 const response = await fetch("/train", { method: "POST" });
-                if (response.redirected) {
-                    window.location.href = response.url; // Redirect to predictions page
+                const result = await response.json();
+                if (result.status === "success" && result.redirect) {
+                    window.location.href = result.redirect;
                 } else {
-                    const result = await response.json();
-                    statusDiv.textContent = result.status === "success" ? "Training complete." : `Error: ${result.message}`;
-                    updateLastModelButton();
+                    statusDiv.innerHTML = `<span class='text-red-600'>❌ ${result.message}</span>`;
                 }
             } catch (err) {
-                statusDiv.textContent = "An error occurred.";
-                console.error(err);
+                statusDiv.innerHTML = "<span class='text-red-600'>❌ An error occurred.</span>";
             }
         }
 
-        async function updateLastModelButton() {
-            const button = document.getElementById("useLastModelButton");
+        async function fetchModels() {
+            const selector = document.getElementById("modelSelector");
             try {
-                const response = await fetch("/get_last_trained");
+                const response = await fetch("/get_models");
                 const result = await response.json();
-                if (result.status === "success") {
-                    button.textContent = `Use Last Trained Model (${result.model_type.charAt(0).toUpperCase() + result.model_type.slice(1)} Trained)`;
+                if (result.status === "success" && result.models.length > 0) {
+                    selector.innerHTML = result.models
+                        .map(model => `<option value="${model}">${model.charAt(0).toUpperCase() + model.slice(1)}</option>`)
+                        .join("");
                 } else {
-                    button.textContent = "No Model Trained Yet";
-                    button.disabled = true;
+                    selector.innerHTML = "<option>No models available</option>";
                 }
             } catch (err) {
-                console.error(err);
-                button.textContent = "Error Loading Info";
-                button.disabled = true;
+                selector.innerHTML = "<option>Error loading models</option>";
             }
         }
 
         async function useLastTrainedModel() {
+            const modelType = document.getElementById("modelSelector").value;
             const statusDiv = document.getElementById("lastModelStatus");
-            statusDiv.textContent = "Loading last model...";
+
+            if (!modelType) {
+                statusDiv.innerHTML = "<span class='text-red-600'>❌ Please select a model.</span>";
+                return;
+            }
+
+            statusDiv.innerHTML = "<span class='text-yellow-600'>Loading model...</span>";
             try {
-                const response = await fetch("/use_last_trained", { method: "POST" });
-                if (response.redirected) {
-                    window.location.href = response.url; // Redirect to predictions page
+                const response = await fetch("/use_last_trained", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ model_type: modelType })
+                });
+                const result = await response.json();
+
+                if (result.status === "success") {
+                    statusDiv.innerHTML = `<span class='text-green-600'>✅ ${result.message}</span>`;
+                    if (result.redirect) {
+                        setTimeout(() => {
+                            window.location.href = result.redirect;
+                        }, 1000);
+                    }
                 } else {
-                    const result = await response.json();
-                    statusDiv.textContent = result.status === "success" ? result.message : `Error: ${result.message}`;
+                    statusDiv.innerHTML = `<span class='text-red-600'>❌ ${result.message}</span>`;
                 }
             } catch (err) {
-                statusDiv.textContent = "An error occurred.";
-                console.error(err);
+                statusDiv.innerHTML = "<span class='text-red-600'>❌ An error occurred.</span>";
             }
         }
 
-        updateLastModelButton();
+        document.addEventListener("DOMContentLoaded", fetchModels);
     </script>
 </body>
 </html>

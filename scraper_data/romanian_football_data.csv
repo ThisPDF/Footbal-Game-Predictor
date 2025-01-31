@@ -1,609 +1,328 @@
 Country,League,Season,Date,HomeTeam,AwayTeam,HomeGoals,AwayGoals,Result
+Romania,SuperCupa,2022/2023,2022-07-09T17:30:00+00:00,CFR 1907 Cluj,Sepsi OSK Sfantu Gheorghe,1,2,AwayWin
 Romania,SuperCupa,2021/2022,2021-07-10T17:00:00+00:00,CFR 1907 Cluj,CS Universitatea Craiova,0,0,Draw
 Romania,SuperCupa,2023/2024,2023-07-08T17:00:00+00:00,Farul Constanta,Sepsi OSK Sfantu Gheorghe,0,1,AwayWin
-Romania,SuperCupa,2022/2023,2022-07-09T17:30:00+00:00,CFR 1907 Cluj,Sepsi OSK Sfantu Gheorghe,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Victoria Traian,Axiopolis,0,12,AwayWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Dunarea 2020 Giurgiu,ARD Snagov,4,3,HomeWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,ACS Targu Mures 1898,Codlea,7,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Dunarea Turris,Inter Campulung,2,0,HomeWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Iazu,Progresul Fundulea,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Nera Bogodinti,Turceni,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Oltul Curtisoara,Roberto Ziduri,4,5,AwayWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Unirea Branistea,Vointa Lanurile,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-06T00:00:00+00:00,Victoria Felnac,Recolta Danceu,6,2,HomeWin
-Romania,Cupa României,2022/2023,2022-07-06T15:00:00+00:00,Viitorul Darabani,CSM FC Vaslui,5,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-06T15:00:00+00:00,Somesul Feldru,Sighetu Marmatiei,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,CSM Lugoj,Victoria Felnac,5,3,HomeWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Pescarusul Sarichioi,Unirea Branistea,1,8,AwayWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Rapid Jibou,Somesul Feldru,1,4,AwayWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Viitorul Liteni,Viitorul Darabani,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Inter Star,ACS Targu Mures 1898,1,6,AwayWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Universitatea Alba Iulia,Gheorgheni,2,0,HomeWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Victoria Gugesti,Victoria Traian,10,2,HomeWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Sparta Ramnicu Valcea,Oltul Curtisoara,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Atletic United Ploiesti,Dunarea 2020 Giurgiu,2,2,Draw
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,CS Dinamo Bucuresti,Iazu,8,0,HomeWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Dunarea Calafat,Dunarea Turris,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-07-09T15:00:00+00:00,Gloria al Orasului Geoag,Nera Bogodinti,13,0,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Axiopolis,Victoria Gugesti,7,2,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,CSM FC Vaslui,Viitorul Liteni,5,3,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Sighetu Marmatiei,Rapid Jibou,10,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Victoria Horia,Unirea Bacau,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,ARD Snagov,Atletic United Ploiesti,2,4,AwayWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Codlea,Inter Star,3,2,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Inter Campulung,Dunarea Calafat,4,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Progresul Fundulea,CS Dinamo Bucuresti,1,0,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Recolta Danceu,CSM Lugoj,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Recolta Dorolt,Crisul Santandrei,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Roberto Ziduri,Sparta Ramnicu Valcea,4,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-13T15:00:00+00:00,Turceni,Gloria al Orasului Geoag,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,Axiopolis,Unirea Branistea,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,Victoria Horia,Viitorul Darabani,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,Somesul Feldru,Crisul Santandrei,2,4,AwayWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,ACS Targu Mures 1898,Universitatea Alba Iulia,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,Atletic United Ploiesti,Progresul Fundulea,4,1,HomeWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,Roberto Ziduri,Dunarea Turris,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-07-16T14:30:00+00:00,Turceni,CSM Lugoj,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,CS Luceafarul Oradea,Crisul Chisineu Cris,2,9,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Avantul Reghin,Gloria Bistrita,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,CSM Lugoj,Armata Aurul Brad,7,2,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Filiasi,Vedita Colonesti,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Gloria Lunca Teuz Cermei,Soimii Lipova,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Oltenita,Inainte Modelu,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Pascani,Stiinta Miroslava,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Ramnicu Sarat,Metalul Buzau,2,3,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Sporting Liesti,Aerostar Bacau,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Sportul Chiscani,Viitorul Ianca,1,5,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Sanatatea Cluj,Minerul Ocna Dej,3,4,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Ariesul Turda,Viitorul Cluj,0,9,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Avantul Periam,Pobeda Star Bisnov,3,2,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Faurei,Recolta Gheorghe Doja,2,5,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Minerul Costesti,Flacara Horezu,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Municipal Brasov,Olimpic Cetate,4,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Progresul Somcuta Mare,CSM Satu Mare,1,12,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Real Bradu,Unirea Bascov,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Somuz Falticeni,Ceahlaul Piatra Neamt,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,CSM Bacau,Dinamo Bacau,0,0,Draw
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Gilortul,Viitorul Simian,3,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Jiul Petrosani,Pandurii TG JIU,7,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Sportul Simleu,SCM Zalau,1,1,Draw
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Kids Tampa Brasov,Targu Secuiesc,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Plopeni,Blejoi,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Petrolul Potcoava,Sporting Rosiori,4,3,HomeWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Progresul Ezeris,Vointa Lupac,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Viitorul Darabani,Bucovina Radauti,0,0,Draw
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,ACS Targu Mures 1898,Unirea Ungheni,1,5,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Atletic United Ploiesti,Flacara Moreni,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Crisul Santandrei,Sanmartin,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Dunarea Turris,Alexandria,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,CSM Fetesti,Agricola Borcea,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T14:30:00+00:00,Frontiera Curtici,Progresul Pecica,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-08-17T17:00:00+00:00,Axiopolis,Gloria Albesti,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-20T14:30:00+00:00,Unirea Alba Iulia,Ocna Mures,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,CSM Lugoj,Ghiroda si Giarmata Vii,1,4,AwayWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Cetate Deva,Corvinul Hunedoara,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Flacara Moreni,Pucioasa,6,2,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Unirea Bascov,Alexandria,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Inainte Modelu,Dunarea Calarasi,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Crisul Chisineu Cris,Soimii Lipova,1,6,AwayWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Flacara Horezu,Viitorul Daesti,1,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Ocna Mures,Metalurgistul Cugir,4,3,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Jiul Petrosani,Gilortul,2,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,SJ Vaslui,Husana Husi,2,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Petrolul Potcoava,Filiasi,3,2,HomeWin
-Romania,Cupa României,2022/2023,2022-08-30T14:30:00+00:00,Gloria Bistrita,Minerul Ocna Dej,1,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Stiinta Miroslava,SJ Vaslui,5,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Axiopolis,Agricola Borcea,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Popesti-Leordeni,FC Astra Giurgiu,6,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Targu Secuiesc,Focsani,3,2,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Viitorul Ianca,Braila,5,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Avantul Periam,Progresul Pecica,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Blejoi,Metalul Buzau,5,4,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Municipal Brasov,Odorheiu Secuiesc,3,2,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Sanmartin,Bihor Oradea,2,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Vointa Lupac,CSM Resita,0,6,AwayWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Somuz Falticeni,ACS Foresta Suceava,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Recolta Gheorghe Doja,CS Afumati,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Viitorul Darabani,Dante Botosani,3,0,HomeWin
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Dinamo Bacau,Aerostar Bacau,3,3,Draw
-Romania,Cupa României,2022/2023,2022-08-31T14:30:00+00:00,Viitorul Cluj,Unirea Ungheni,3,3,Draw
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Alexandria,Progresul Spartac,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Ghiroda si Giarmata Vii,Ripensia Timisoara,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Popesti-Leordeni,Concordia,0,0,Draw
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Soimii Lipova,Sanmartin,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Avantul Periam,Dumbravita,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Jiul Petrosani,Cetate Deva,3,0,HomeWin
-Romania,Cupa României,2022/2023,2022-09-13T13:30:00+00:00,Petrolul Potcoava,Slatina,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T12:00:00+00:00,CSM Resita,FC Politehnica Timisoara,2,0,HomeWin
-Romania,Cupa României,2022/2023,2022-09-14T12:00:00+00:00,Flacara Moreni,CSA Steaua Bucuresti,2,2,Draw
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Dunarea Calarasi,Unirea Slobozia,1,5,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,CS Afumati,Metaloglobus,0,0,Draw
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Stiinta Miroslava,Politehnica Iasi,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Tunari,Dinamo Bucuresti,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Targu Secuiesc,Brasov Steagul Renaste,0,5,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Viitorul Ianca,Otelul,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Blejoi,SCM Gloria Buzau,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Flacara Horezu,ACS Sirineasa,2,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Municipal Brasov,Viitorul Selimbar,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Ocna Mures,Unirea Ungheni,1,1,Draw
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,CSM Satu Mare,Minaur Baia Mare,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Viitorul Darabani,ACS Foresta Suceava,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-09-14T13:30:00+00:00,Gloria Bistrita,Unirea Dej,0,0,Draw
-Romania,Cupa României,2022/2023,2022-09-14T16:00:00+00:00,Axiopolis,Unirea Constanta,3,1,HomeWin
-Romania,Cupa României,2022/2023,2022-09-15T13:30:00+00:00,Aerostar Bacau,Csikszereda,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-09-27T11:30:00+00:00,Dumbravita,Politehnica Iasi,0,0,Draw
-Romania,Cupa României,2022/2023,2022-09-27T13:00:00+00:00,Ripensia Timisoara,U Craiova 1948,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-09-27T13:30:00+00:00,Soimii Lipova,SCM Gloria Buzau,2,4,AwayWin
-Romania,Cupa României,2022/2023,2022-09-27T15:45:00+00:00,CSA Steaua Bucuresti,Chindia Targoviste,1,2,AwayWin
-Romania,Cupa României,2022/2023,2022-09-27T16:00:00+00:00,Axiopolis,Minaur Baia Mare,4,5,AwayWin
-Romania,Cupa României,2022/2023,2022-09-28T13:00:00+00:00,ACS Foresta Suceava,Uta Arad,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-09-28T13:00:00+00:00,Jiul Petrosani,Otelul,2,2,Draw
-Romania,Cupa României,2022/2023,2022-09-28T13:30:00+00:00,CSM Resita,CS Mioveni,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-09-28T13:30:00+00:00,Ocna Mures,Slatina,3,0,HomeWin
-Romania,Cupa României,2022/2023,2022-09-28T13:30:00+00:00,Gloria Bistrita,Unirea Slobozia,0,0,Draw
-Romania,Cupa României,2022/2023,2022-09-28T15:45:00+00:00,Viitorul Selimbar,Petrolul Ploiesti,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-09-28T18:30:00+00:00,CS Afumati,Rapid,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-09-29T13:00:00+00:00,Brasov Steagul Renaste,AFC Hermannstadt,1,1,Draw
-Romania,Cupa României,2022/2023,2022-09-29T13:30:00+00:00,Alexandria,Csikszereda,1,1,Draw
-Romania,Cupa României,2022/2023,2022-09-29T15:45:00+00:00,Concordia,CFR 1907 Cluj,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-09-29T18:30:00+00:00,ACS Sirineasa,Dinamo Bucuresti,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-10-18T12:30:00+00:00,Alexandria,Farul Constanta,2,2,Draw
-Romania,Cupa României,2022/2023,2022-10-18T15:15:00+00:00,Dumbravita,Rapid,1,4,AwayWin
-Romania,Cupa României,2022/2023,2022-10-18T18:00:00+00:00,Dinamo Bucuresti,U Craiova 1948,0,0,Draw
-Romania,Cupa României,2022/2023,2022-10-19T12:00:00+00:00,Unirea Slobozia,FC Voluntari,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-10-19T12:00:00+00:00,Ocna Mures,Chindia Targoviste,1,0,HomeWin
-Romania,Cupa României,2022/2023,2022-10-19T12:30:00+00:00,SCM Gloria Buzau,FC Botosani,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-10-19T15:15:00+00:00,AFC Hermannstadt,Universitatea Craiova,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-10-19T18:00:00+00:00,Uta Arad,FCSB,2,2,Draw
-Romania,Cupa României,2022/2023,2022-10-20T12:00:00+00:00,Otelul,CS Mioveni,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-10-20T12:30:00+00:00,Minaur Baia Mare,Arges Pitesti,0,0,Draw
-Romania,Cupa României,2022/2023,2022-10-20T15:15:00+00:00,Petrolul Ploiesti,Sepsi OSK Sfantu Gheorghe,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-10-20T18:00:00+00:00,Universitatea Cluj,CFR 1907 Cluj,1,1,Draw
-Romania,Cupa României,2022/2023,2022-11-08T14:00:00+00:00,CS Mioveni,FC Botosani,1,0,HomeWin
-Romania,Cupa României,2022/2023,2022-11-08T16:15:00+00:00,Unirea Slobozia,Petrolul Ploiesti,0,0,Draw
-Romania,Cupa României,2022/2023,2022-11-08T19:00:00+00:00,Dinamo Bucuresti,Sepsi OSK Sfantu Gheorghe,2,3,AwayWin
-Romania,Cupa României,2022/2023,2022-11-09T12:00:00+00:00,SCM Gloria Buzau,Uta Arad,1,3,AwayWin
-Romania,Cupa României,2022/2023,2022-11-09T12:00:00+00:00,Minaur Baia Mare,AFC Hermannstadt,2,3,AwayWin
-Romania,Cupa României,2022/2023,2022-11-09T12:45:00+00:00,Chindia Targoviste,Arges Pitesti,1,1,Draw
-Romania,Cupa României,2022/2023,2022-11-09T15:00:00+00:00,Ocna Mures,Universitatea Craiova,1,1,Draw
-Romania,Cupa României,2022/2023,2022-11-09T19:00:00+00:00,Rapid,Farul Constanta,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-11-10T12:00:00+00:00,Alexandria,Universitatea Cluj,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-11-10T14:00:00+00:00,U Craiova 1948,FC Voluntari,1,0,HomeWin
-Romania,Cupa României,2022/2023,2022-11-10T16:15:00+00:00,Dumbravita,CFR 1907 Cluj,0,5,AwayWin
-Romania,Cupa României,2022/2023,2022-11-10T19:00:00+00:00,Otelul,FCSB,0,0,Draw
-Romania,Cupa României,2022/2023,2022-12-06T17:00:00+00:00,Sepsi OSK Sfantu Gheorghe,FC Voluntari,4,0,HomeWin
-Romania,Cupa României,2022/2023,2022-12-06T17:00:00+00:00,Petrolul Ploiesti,U Craiova 1948,0,1,AwayWin
-Romania,Cupa României,2022/2023,2022-12-06T17:00:00+00:00,Unirea Slobozia,Dinamo Bucuresti,3,3,Draw
-Romania,Cupa României,2022/2023,2022-12-07T12:00:00+00:00,Alexandria,Dumbravita,0,4,AwayWin
-Romania,Cupa României,2022/2023,2022-12-07T15:00:00+00:00,AFC Hermannstadt,Chindia Targoviste,4,1,HomeWin
-Romania,Cupa României,2022/2023,2022-12-07T15:00:00+00:00,Arges Pitesti,Universitatea Craiova,2,1,HomeWin
-Romania,Cupa României,2022/2023,2022-12-07T15:00:00+00:00,Ocna Mures,Minaur Baia Mare,0,6,AwayWin
-Romania,Cupa României,2022/2023,2022-12-07T18:00:00+00:00,Farul Constanta,CFR 1907 Cluj,0,0,Draw
-Romania,Cupa României,2022/2023,2022-12-07T18:00:00+00:00,Universitatea Cluj,Rapid,0,0,Draw
-Romania,Cupa României,2022/2023,2022-12-08T18:00:00+00:00,FC Botosani,FCSB,0,2,AwayWin
-Romania,Cupa României,2022/2023,2022-12-08T18:00:00+00:00,CS Mioveni,Uta Arad,0,3,AwayWin
-Romania,Cupa României,2022/2023,2022-12-08T18:00:00+00:00,Otelul,SCM Gloria Buzau,0,2,AwayWin
-Romania,Cupa României,2022/2023,2023-04-04T16:00:00+00:00,Uta Arad,U Craiova 1948,1,0,HomeWin
-Romania,Cupa României,2022/2023,2023-04-05T16:00:00+00:00,AFC Hermannstadt,Universitatea Cluj,1,2,AwayWin
-Romania,Cupa României,2022/2023,2023-04-06T15:00:00+00:00,Sepsi OSK Sfantu Gheorghe,CS Mioveni,4,1,HomeWin
-Romania,Cupa României,2022/2023,2023-04-06T18:00:00+00:00,CFR 1907 Cluj,Arges Pitesti,1,0,HomeWin
-Romania,Cupa României,2022/2023,2023-04-26T16:00:00+00:00,Sepsi OSK Sfantu Gheorghe,CFR 1907 Cluj,3,0,HomeWin
-Romania,Cupa României,2022/2023,2023-04-27T16:00:00+00:00,Universitatea Cluj,Uta Arad,1,0,HomeWin
-Romania,Cupa României,2022/2023,2023-05-24T17:30:00+00:00,Sepsi OSK Sfantu Gheorghe,Universitatea Cluj,0,0,Draw
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,ACS Poli Timisoara,Cetate Deva,3,6,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Avrig,Olimpic Cetate,4,1,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Gloria Lunca Teuz Cermei,Luceafarul Lotus,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Industria Galda de Jos,Unirea Alba Iulia,2,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Pascani,Husana Husi,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Pescarusul Sarichioi,Sportul Chiscani,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Rapid Jibou,Sportul Simleu,0,5,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Victoria Traian,Viitorul Ianca,2,4,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Viitorul Curita,CSM Bacau,2,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Viitorul Simian,Gilortul,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,CS Carcea,Petrolul Potcoava,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,CS Floresti,Sanatatea Cluj,2,5,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,CSM FC Vaslui,SJ Vaslui,0,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Faurei,Agricola Borcea,2,2,Draw
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Minerul Costesti,Jiul Petrosani,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Vointa Stremt,Ocna Mures,2,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Infratirea Jilavele,Recolta Gheorghe Doja,0,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Armata Aurul Brad,Hunedoara,4,5,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Asalt Bucuresti,Oltenita,8,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Branesti,Tunari,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Dunarea Ciocanesti,Inainte Modelu,2,2,Draw
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Foresta Tileagd,CS Luceafarul Oradea,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Golimpiakosz Odorheiu,Odorheiu Secuiesc,0,6,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Inizio Focsani,Targu Secuiesc,4,2,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Inter Aninoasa,Pucioasa,2,7,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Juniorul Suceava,Somuz Falticeni,2,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Kinder Sangeorgiu de Mur,Unirea Ungheni,0,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Lapus R,Progresul Somcuta Mare,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Maxima Hobaia,Alexandria,0,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Moldova Cristesti,Dante Botosani,1,4,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Nera Bozovici,Progresul Ezeris,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Navodari,Gloria Albesti,4,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Petrolul 95,Flacara Moreni,2,2,Draw
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Phoenix Posta Calnau,Plopeni,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Sparta Ramnicu Valcea,Flacara Horezu,3,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Sportul Beclean,Somesul Dej,3,0,HomeWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Steagu Rosu Brasov,Kids Tampa Brasov,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Universitatea de Vest,Ghiroda si Giarmata Vii,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Zimbrul Slobozia Conachi,Sporting Liesti,1,6,AwayWin
-Romania,Cupa României,2021/2022,2021-07-28T14:30:00+00:00,Stiinta Beltiug,CSM Satu Mare,0,5,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Stiinta Miroslava,Ceahlaul Piatra Neamt,1,1,Draw
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Alexandria,Sporting Rosiori,0,0,Draw
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Avrig,Brasov Steagul Renaste,2,7,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Flacara Moreni,Pucioasa,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Hunedoara,Cetate Deva,0,0,Draw
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Metalul Buzau,Ramnicu Sarat,2,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Metalurgistul Cugir,Viitorul Selimbar,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Popesti-Leordeni,CS Afumati,4,3,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Sporting Liesti,Otelul,0,4,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Sanatatea Cluj,Ariesul Turda,3,2,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Viitorul Curita,Odorheiu Secuiesc,0,4,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Avantul Periam,Progresul Pecica,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,CS Carcea,Filiasi,0,3,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Dumbravita,Soimii Lipova,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Progresul Somcuta Mare,Gloria Bistrita,2,3,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Unirea Ungheni,Avantul Reghin,4,2,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Vointa Stremt,Industria Galda de Jos,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Somuz Falticeni,Bucovina Radauti,3,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Dante Botosani,ACS Foresta Suceava,3,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Jiul Petrosani,Gilortul,6,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Recolta Gheorghe Doja,Viitorul Ianca,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Sportul Simleu,SCM Zalau,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Viitorul Daesti,Vedita Colonesti,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,CSM Satu Mare,Minaur Baia Mare,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,SJ Vaslui,Husana Husi,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Kids Tampa Brasov,Municipal Brasov,3,3,Draw
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Plopeni,Blejoi,4,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Progresul Ezeris,Ghiroda si Giarmata Vii,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Asalt Bucuresti,Tunari,1,7,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Dunarea Ciocanesti,Agricola Borcea,3,5,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Foresta Tileagd,1910 Oradea,0,5,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Inizio Focsani,Focsani,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Luceafarul Lotus,Crisul Chisineu Cris,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Navodari,Axiopolis,3,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Sparta Ramnicu Valcea,Unirea Bascov,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-11T14:30:00+00:00,Sportul Beclean,Unirea Dej,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-08-18T14:00:00+00:00,Progresul Spartac,CSA Steaua Bucuresti,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-18T14:30:00+00:00,Pescarusul Sarichioi,Braila,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Filiasi,Vedita Colonesti,2,2,Draw
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Focsani,Aerostar Bacau,2,2,Draw
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Metalul Buzau,SCM Gloria Buzau,1,3,AwayWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Odorheiu Secuiesc,Unirea Ungheni,3,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Pucioasa,Unirea Bascov,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Sporting Rosiori,Slatina,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Tunari,Metaloglobus,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Crisul Chisineu Cris,Soimii Lipova,0,2,AwayWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Municipal Brasov,Brasov Steagul Renaste,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Jiul Petrosani,Hunedoara,0,5,AwayWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Recolta Gheorghe Doja,Agricola Borcea,3,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-24T14:30:00+00:00,Gloria Bistrita,Unirea Dej,2,4,AwayWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Popesti-Leordeni,Unirea Slobozia,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Sanatatea Cluj,Universitatea Cluj,0,4,AwayWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Avantul Periam,Ripensia Timisoara,1,4,AwayWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Vointa Stremt,Viitorul Selimbar,0,4,AwayWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Somuz Falticeni,Dante Botosani,3,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Braila,Otelul,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Husana Husi,Stiinta Miroslava,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,1910 Oradea,SCM Zalau,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Progresul Ezeris,CSM Resita,2,3,AwayWin
-Romania,Cupa României,2021/2022,2021-08-25T14:30:00+00:00,Navodari,Unirea Constanta,3,1,HomeWin
-Romania,Cupa României,2021/2022,2021-08-25T17:00:00+00:00,Pandurii TG JIU,ACS Sirineasa,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-08-26T14:30:00+00:00,Progresul Spartac,Concordia,1,1,Draw
-Romania,Cupa României,2021/2022,2021-09-01T13:30:00+00:00,Plopeni,Petrolul Ploiesti,0,5,AwayWin
-Romania,Cupa României,2021/2022,2021-09-07T13:30:00+00:00,Filiasi,ACS Sirineasa,3,2,HomeWin
-Romania,Cupa României,2021/2022,2021-09-07T13:30:00+00:00,Hunedoara,Viitorul Selimbar,2,2,Draw
-Romania,Cupa României,2021/2022,2021-09-07T13:30:00+00:00,Odorheiu Secuiesc,AFC Hermannstadt,0,0,Draw
-Romania,Cupa României,2021/2022,2021-09-07T13:30:00+00:00,Soimii Lipova,FC Politehnica Timisoara,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-09-07T13:30:00+00:00,Somuz Falticeni,Aerostar Bacau,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Dunarea Calarasi,FC Astra Giurgiu,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,CSM Resita,Ripensia Timisoara,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Tunari,Concordia,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Unirea Bascov,Slatina,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Unirea Dej,Minaur Baia Mare,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Municipal Brasov,Csikszereda,2,6,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Braila,Petrolul Ploiesti,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Husana Husi,Politehnica Iasi,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Recolta Gheorghe Doja,SCM Gloria Buzau,0,5,AwayWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,1910 Oradea,Universitatea Cluj,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-09-08T13:30:00+00:00,Navodari,Unirea Slobozia,0,6,AwayWin
-Romania,Cupa României,2021/2022,2021-09-21T12:00:00+00:00,Somuz Falticeni,FC Voluntari,1,4,AwayWin
-Romania,Cupa României,2021/2022,2021-09-21T13:00:00+00:00,Minaur Baia Mare,Politehnica Iasi,3,1,HomeWin
-Romania,Cupa României,2021/2022,2021-09-21T15:45:00+00:00,Petrolul Ploiesti,U Craiova 1948,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-21T18:30:00+00:00,CS Mioveni,Rapid,0,0,Draw
-Romania,Cupa României,2021/2022,2021-09-22T12:00:00+00:00,Arges Pitesti,FC Botosani,0,0,Draw
-Romania,Cupa României,2021/2022,2021-09-22T13:30:00+00:00,Concordia,GAZ Metan Medias,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-22T13:30:00+00:00,Csikszereda,Chindia Targoviste,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-22T13:30:00+00:00,SCM Gloria Buzau,FC Clinceni,2,1,HomeWin
-Romania,Cupa României,2021/2022,2021-09-22T13:30:00+00:00,Slatina,Dunarea Calarasi,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-09-22T13:30:00+00:00,Unirea Slobozia,FC Politehnica Timisoara,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-22T13:30:00+00:00,1910 Oradea,AFC Hermannstadt,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-22T15:00:00+00:00,Farul Constanta,Sepsi OSK Sfantu Gheorghe,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-22T18:00:00+00:00,Hunedoara,FCSB,3,5,AwayWin
-Romania,Cupa României,2021/2022,2021-09-23T13:00:00+00:00,Filiasi,Uta Arad,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-09-23T15:45:00+00:00,Ripensia Timisoara,Dinamo Bucuresti,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-09-23T18:30:00+00:00,CS Universitatea Craiova,CFR 1907 Cluj,1,0,HomeWin
-Romania,Cupa României,2021/2022,2021-10-26T12:00:00+00:00,Filiasi,AFC Hermannstadt,2,2,Draw
-Romania,Cupa României,2021/2022,2021-10-26T15:00:00+00:00,GAZ Metan Medias,Chindia Targoviste,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-10-26T18:00:00+00:00,Dinamo Bucuresti,Arges Pitesti,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-10-27T15:00:00+00:00,Minaur Baia Mare,CS Universitatea Craiova,0,4,AwayWin
-Romania,Cupa României,2021/2022,2021-10-28T12:00:00+00:00,SCM Gloria Buzau,Dunarea Calarasi,3,0,HomeWin
-Romania,Cupa României,2021/2022,2021-10-28T15:00:00+00:00,U Craiova 1948,Sepsi OSK Sfantu Gheorghe,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-10-28T18:00:00+00:00,FC Politehnica Timisoara,Rapid,2,0,HomeWin
-Romania,Cupa României,2021/2022,2021-11-30T18:30:00+00:00,Chindia Targoviste,Sepsi OSK Sfantu Gheorghe,1,2,AwayWin
-Romania,Cupa României,2021/2022,2021-12-01T13:30:00+00:00,SCM Gloria Buzau,FC Voluntari,0,1,AwayWin
-Romania,Cupa României,2021/2022,2021-12-01T16:30:00+00:00,FC Politehnica Timisoara,Arges Pitesti,0,0,Draw
-Romania,Cupa României,2021/2022,2021-12-02T18:30:00+00:00,Filiasi,CS Universitatea Craiova,0,3,AwayWin
-Romania,Cupa României,2021/2022,2022-04-19T17:00:00+00:00,FC Voluntari,Arges Pitesti,2,0,HomeWin
-Romania,Cupa României,2021/2022,2022-04-20T16:30:00+00:00,Sepsi OSK Sfantu Gheorghe,CS Universitatea Craiova,2,1,HomeWin
-Romania,Cupa României,2021/2022,2022-05-11T16:30:00+00:00,Arges Pitesti,FC Voluntari,0,1,AwayWin
-Romania,Cupa României,2021/2022,2022-05-12T16:30:00+00:00,CS Universitatea Craiova,Sepsi OSK Sfantu Gheorghe,0,1,AwayWin
-Romania,Cupa României,2021/2022,2022-05-19T17:30:00+00:00,Sepsi OSK Sfantu Gheorghe,FC Voluntari,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-08-04T14:00:00+00:00,Progresul Spartac,Dinamo Bucuresti,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-08-05T14:00:00+00:00,Unirea Slobozia,Minaur Baia Mare,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-06T08:00:00+00:00,Concordia,Slatina,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-08-06T08:00:00+00:00,ACS Sirineasa,Dumbravita,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-08-06T08:00:00+00:00,SCM Gloria Buzau,Ripensia Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-06T08:00:00+00:00,Unirea Dej,Csikszereda,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-08-06T08:00:00+00:00,Viitorul Selimbar,Brasov Steagul Renaste,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-06T08:30:00+00:00,Otelul,Politehnica Iasi,0,0,Draw
-Romania,Liga II,2022/2023,2022-08-06T15:00:00+00:00,FC Politehnica Timisoara,Unirea Constanta,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-09T17:00:00+00:00,CSA Steaua Bucuresti,Metaloglobus,1,1,Draw
-Romania,Liga II,2022/2023,2022-08-12T15:30:00+00:00,Csikszereda,Concordia,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-08-13T08:00:00+00:00,Politehnica Iasi,ACS Sirineasa,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-13T08:00:00+00:00,Ripensia Timisoara,Unirea Slobozia,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-08-13T08:00:00+00:00,Viitorul Selimbar,FC Politehnica Timisoara,4,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-13T08:00:00+00:00,Dumbravita,Unirea Dej,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-08-13T08:00:00+00:00,Unirea Constanta,Progresul Spartac,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-08-13T08:30:00+00:00,Metaloglobus,SCM Gloria Buzau,1,3,AwayWin
-Romania,Liga II,2022/2023,2022-08-14T10:30:00+00:00,Brasov Steagul Renaste,Minaur Baia Mare,1,1,Draw
-Romania,Liga II,2022/2023,2022-08-15T09:30:00+00:00,Slatina,CSA Steaua Bucuresti,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-08-16T15:00:00+00:00,Dinamo Bucuresti,Otelul,1,3,AwayWin
-Romania,Liga II,2022/2023,2022-08-20T08:00:00+00:00,Concordia,Dumbravita,2,2,Draw
-Romania,Liga II,2022/2023,2022-08-20T08:00:00+00:00,FC Politehnica Timisoara,Brasov Steagul Renaste,0,0,Draw
-Romania,Liga II,2022/2023,2022-08-20T08:00:00+00:00,Minaur Baia Mare,Ripensia Timisoara,1,1,Draw
-Romania,Liga II,2022/2023,2022-08-20T08:00:00+00:00,Unirea Dej,Politehnica Iasi,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-08-20T08:00:00+00:00,Unirea Slobozia,Metaloglobus,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-20T10:00:00+00:00,SCM Gloria Buzau,Slatina,1,1,Draw
-Romania,Liga II,2022/2023,2022-08-20T15:00:00+00:00,Progresul Spartac,Viitorul Selimbar,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-08-20T15:45:00+00:00,ACS Sirineasa,Dinamo Bucuresti,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-21T09:30:00+00:00,Otelul,Unirea Constanta,3,2,HomeWin
-Romania,Liga II,2022/2023,2022-08-23T16:00:00+00:00,CSA Steaua Bucuresti,Csikszereda,0,4,AwayWin
-Romania,Liga II,2022/2023,2022-08-26T13:30:00+00:00,Viitorul Selimbar,Otelul,1,1,Draw
-Romania,Liga II,2022/2023,2022-08-27T08:00:00+00:00,Politehnica Iasi,Concordia,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-08-27T08:00:00+00:00,Metaloglobus,Minaur Baia Mare,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-08-27T08:00:00+00:00,FC Politehnica Timisoara,Progresul Spartac,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-08-27T08:00:00+00:00,Slatina,Unirea Slobozia,1,1,Draw
-Romania,Liga II,2022/2023,2022-08-27T08:00:00+00:00,Brasov Steagul Renaste,Ripensia Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-08-27T08:30:00+00:00,Dinamo Bucuresti,Unirea Dej,2,3,AwayWin
-Romania,Liga II,2022/2023,2022-08-27T15:00:00+00:00,Unirea Constanta,ACS Sirineasa,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-08-28T08:00:00+00:00,Csikszereda,SCM Gloria Buzau,3,2,HomeWin
-Romania,Liga II,2022/2023,2022-08-29T15:00:00+00:00,Dumbravita,CSA Steaua Bucuresti,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-09-02T13:30:00+00:00,CSA Steaua Bucuresti,Politehnica Iasi,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-03T08:00:00+00:00,Ripensia Timisoara,Metaloglobus,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-03T08:00:00+00:00,ACS Sirineasa,Viitorul Selimbar,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-03T08:00:00+00:00,Minaur Baia Mare,Slatina,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-03T08:00:00+00:00,Progresul Spartac,Brasov Steagul Renaste,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-03T08:00:00+00:00,Unirea Dej,Unirea Constanta,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-03T08:00:00+00:00,Unirea Slobozia,Csikszereda,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-09-03T08:30:00+00:00,Otelul,FC Politehnica Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-04T08:00:00+00:00,Concordia,Dinamo Bucuresti,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-09-05T13:30:00+00:00,SCM Gloria Buzau,Dumbravita,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-09T13:30:00+00:00,Progresul Spartac,Otelul,0,0,Draw
-Romania,Liga II,2022/2023,2022-09-09T18:30:00+00:00,Dinamo Bucuresti,CSA Steaua Bucuresti,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,Politehnica Iasi,SCM Gloria Buzau,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,FC Politehnica Timisoara,ACS Sirineasa,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,Slatina,Ripensia Timisoara,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,Viitorul Selimbar,Unirea Dej,1,1,Draw
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,Dumbravita,Unirea Slobozia,2,4,AwayWin
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,Unirea Constanta,Concordia,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-09-10T08:00:00+00:00,Brasov Steagul Renaste,Metaloglobus,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-11T08:30:00+00:00,Csikszereda,Minaur Baia Mare,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-17T08:00:00+00:00,Concordia,Viitorul Selimbar,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-09-17T08:00:00+00:00,ACS Sirineasa,Progresul Spartac,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-09-17T08:00:00+00:00,Metaloglobus,Slatina,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-09-17T08:00:00+00:00,Minaur Baia Mare,Dumbravita,3,4,AwayWin
-Romania,Liga II,2022/2023,2022-09-17T08:00:00+00:00,Unirea Dej,FC Politehnica Timisoara,2,2,Draw
-Romania,Liga II,2022/2023,2022-09-18T08:00:00+00:00,Ripensia Timisoara,Csikszereda,0,0,Draw
-Romania,Liga II,2022/2023,2022-09-18T08:00:00+00:00,SCM Gloria Buzau,Dinamo Bucuresti,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-18T08:00:00+00:00,Otelul,Brasov Steagul Renaste,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-09-18T08:00:00+00:00,Unirea Slobozia,Politehnica Iasi,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-01T08:00:00+00:00,Politehnica Iasi,Minaur Baia Mare,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-01T08:00:00+00:00,Progresul Spartac,Unirea Dej,2,2,Draw
-Romania,Liga II,2022/2023,2022-10-01T08:00:00+00:00,Dumbravita,Ripensia Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-01T09:00:00+00:00,Viitorul Selimbar,CSA Steaua Bucuresti,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-02T08:00:00+00:00,FC Politehnica Timisoara,Concordia,1,4,AwayWin
-Romania,Liga II,2022/2023,2022-10-02T08:00:00+00:00,Csikszereda,Metaloglobus,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-02T08:00:00+00:00,Otelul,ACS Sirineasa,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-10-02T08:00:00+00:00,Brasov Steagul Renaste,Slatina,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-03T13:00:00+00:00,Unirea Constanta,SCM Gloria Buzau,3,1,HomeWin
-Romania,Liga II,2022/2023,2022-10-04T14:00:00+00:00,Dinamo Bucuresti,Unirea Slobozia,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,Concordia,Progresul Spartac,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,Ripensia Timisoara,Politehnica Iasi,3,1,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,ACS Sirineasa,Brasov Steagul Renaste,2,3,AwayWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,Metaloglobus,Dumbravita,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,Slatina,Csikszereda,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,Unirea Slobozia,Unirea Constanta,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T08:00:00+00:00,CSA Steaua Bucuresti,FC Politehnica Timisoara,3,1,HomeWin
-Romania,Liga II,2022/2023,2022-10-08T10:00:00+00:00,Unirea Dej,Otelul,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-09T08:00:00+00:00,Minaur Baia Mare,Dinamo Bucuresti,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-11T14:00:00+00:00,SCM Gloria Buzau,Viitorul Selimbar,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-14T13:00:00+00:00,Brasov Steagul Renaste,Csikszereda,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-15T08:00:00+00:00,Politehnica Iasi,Metaloglobus,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-15T08:00:00+00:00,ACS Sirineasa,Unirea Dej,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-10-15T08:00:00+00:00,Viitorul Selimbar,Unirea Slobozia,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-15T08:00:00+00:00,Dumbravita,Slatina,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-10-15T08:00:00+00:00,Unirea Constanta,Minaur Baia Mare,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-15T09:00:00+00:00,Dinamo Bucuresti,Ripensia Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-16T08:45:00+00:00,FC Politehnica Timisoara,SCM Gloria Buzau,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-17T13:00:00+00:00,Progresul Spartac,CSA Steaua Bucuresti,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-10-17T15:15:00+00:00,Otelul,Concordia,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-21T12:30:00+00:00,Slatina,Politehnica Iasi,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-22T08:00:00+00:00,Concordia,ACS Sirineasa,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-22T08:00:00+00:00,Ripensia Timisoara,Unirea Constanta,4,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-22T08:00:00+00:00,Csikszereda,Dumbravita,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-22T08:00:00+00:00,Unirea Dej,Brasov Steagul Renaste,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-10-22T09:00:00+00:00,Metaloglobus,Dinamo Bucuresti,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-10-23T08:00:00+00:00,Minaur Baia Mare,Viitorul Selimbar,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-23T08:00:00+00:00,Unirea Slobozia,FC Politehnica Timisoara,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-24T13:00:00+00:00,SCM Gloria Buzau,Progresul Spartac,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-25T14:00:00+00:00,CSA Steaua Bucuresti,Otelul,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-10-27T14:00:00+00:00,Dinamo Bucuresti,Slatina,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-29T08:00:00+00:00,Politehnica Iasi,Csikszereda,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-29T08:00:00+00:00,FC Politehnica Timisoara,Minaur Baia Mare,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-29T08:00:00+00:00,Progresul Spartac,Unirea Slobozia,1,4,AwayWin
-Romania,Liga II,2022/2023,2022-10-29T08:00:00+00:00,Viitorul Selimbar,Ripensia Timisoara,0,0,Draw
-Romania,Liga II,2022/2023,2022-10-29T08:00:00+00:00,Unirea Constanta,Metaloglobus,1,3,AwayWin
-Romania,Liga II,2022/2023,2022-10-29T09:00:00+00:00,ACS Sirineasa,CSA Steaua Bucuresti,4,3,HomeWin
-Romania,Liga II,2022/2023,2022-10-29T09:00:00+00:00,Unirea Dej,Concordia,1,1,Draw
-Romania,Liga II,2022/2023,2022-10-30T09:00:00+00:00,Brasov Steagul Renaste,Dumbravita,4,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-01T15:00:00+00:00,Otelul,SCM Gloria Buzau,1,1,Draw
-Romania,Liga II,2022/2023,2022-11-03T18:00:00+00:00,Csikszereda,Dinamo Bucuresti,0,0,Draw
-Romania,Liga II,2022/2023,2022-11-05T09:00:00+00:00,Concordia,Brasov Steagul Renaste,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-11-05T09:00:00+00:00,Ripensia Timisoara,FC Politehnica Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-05T09:00:00+00:00,Metaloglobus,Viitorul Selimbar,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-05T09:00:00+00:00,Minaur Baia Mare,Progresul Spartac,2,2,Draw
-Romania,Liga II,2022/2023,2022-11-05T09:00:00+00:00,Slatina,Unirea Constanta,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-11-05T09:00:00+00:00,Dumbravita,Politehnica Iasi,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-11-05T10:30:00+00:00,Unirea Slobozia,Otelul,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-06T09:00:00+00:00,SCM Gloria Buzau,ACS Sirineasa,3,1,HomeWin
-Romania,Liga II,2022/2023,2022-11-07T16:00:00+00:00,CSA Steaua Bucuresti,Unirea Dej,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-11T16:00:00+00:00,Concordia,CSA Steaua Bucuresti,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-11-12T09:00:00+00:00,ACS Sirineasa,Unirea Slobozia,0,4,AwayWin
-Romania,Liga II,2022/2023,2022-11-12T09:00:00+00:00,FC Politehnica Timisoara,Metaloglobus,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-11-12T09:00:00+00:00,Progresul Spartac,Ripensia Timisoara,1,1,Draw
-Romania,Liga II,2022/2023,2022-11-12T09:00:00+00:00,Unirea Dej,SCM Gloria Buzau,2,3,AwayWin
-Romania,Liga II,2022/2023,2022-11-12T09:00:00+00:00,Viitorul Selimbar,Slatina,0,0,Draw
-Romania,Liga II,2022/2023,2022-11-12T09:00:00+00:00,Unirea Constanta,Csikszereda,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-11-12T10:00:00+00:00,Brasov Steagul Renaste,Politehnica Iasi,2,2,Draw
-Romania,Liga II,2022/2023,2022-11-13T09:00:00+00:00,Dinamo Bucuresti,Dumbravita,4,1,HomeWin
-Romania,Liga II,2022/2023,2022-11-15T18:30:00+00:00,Otelul,Minaur Baia Mare,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-25T18:00:00+00:00,SCM Gloria Buzau,Concordia,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-11-26T09:00:00+00:00,Metaloglobus,Progresul Spartac,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-26T09:00:00+00:00,Minaur Baia Mare,ACS Sirineasa,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-11-26T09:00:00+00:00,Slatina,FC Politehnica Timisoara,0,0,Draw
-Romania,Liga II,2022/2023,2022-11-26T09:00:00+00:00,Dumbravita,Unirea Constanta,2,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-26T11:45:00+00:00,Unirea Slobozia,Unirea Dej,1,1,Draw
-Romania,Liga II,2022/2023,2022-11-26T14:00:00+00:00,Politehnica Iasi,Dinamo Bucuresti,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-11-27T12:00:00+00:00,Ripensia Timisoara,Otelul,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-11-27T17:00:00+00:00,CSA Steaua Bucuresti,Brasov Steagul Renaste,0,1,AwayWin
-Romania,Liga II,2022/2023,2022-11-28T18:00:00+00:00,Csikszereda,Viitorul Selimbar,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-12-01T13:00:00+00:00,CSA Steaua Bucuresti,SCM Gloria Buzau,1,1,Draw
-Romania,Liga II,2022/2023,2022-12-02T11:00:00+00:00,Concordia,Unirea Slobozia,1,0,HomeWin
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,ACS Sirineasa,Ripensia Timisoara,3,1,HomeWin
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,FC Politehnica Timisoara,Csikszereda,2,1,HomeWin
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,Otelul,Metaloglobus,3,0,HomeWin
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,Progresul Spartac,Slatina,1,1,Draw
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,Unirea Dej,Minaur Baia Mare,1,1,Draw
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,Viitorul Selimbar,Dumbravita,0,3,AwayWin
-Romania,Liga II,2022/2023,2022-12-03T09:00:00+00:00,Unirea Constanta,Politehnica Iasi,1,2,AwayWin
-Romania,Liga II,2022/2023,2022-12-03T11:15:00+00:00,Brasov Steagul Renaste,Dinamo Bucuresti,0,2,AwayWin
-Romania,Liga II,2022/2023,2023-02-23T15:00:00+00:00,SCM Gloria Buzau,Brasov Steagul Renaste,1,1,Draw
-Romania,Liga II,2022/2023,2023-02-24T14:00:00+00:00,Unirea Slobozia,CSA Steaua Bucuresti,2,2,Draw
-Romania,Liga II,2022/2023,2023-02-25T09:00:00+00:00,Politehnica Iasi,Viitorul Selimbar,4,1,HomeWin
-Romania,Liga II,2022/2023,2023-02-25T09:00:00+00:00,Ripensia Timisoara,Unirea Dej,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-02-25T09:00:00+00:00,Metaloglobus,ACS Sirineasa,0,0,Draw
-Romania,Liga II,2022/2023,2023-02-25T09:00:00+00:00,Csikszereda,Progresul Spartac,2,2,Draw
-Romania,Liga II,2022/2023,2023-02-25T09:00:00+00:00,Dumbravita,FC Politehnica Timisoara,3,1,HomeWin
-Romania,Liga II,2022/2023,2023-02-25T10:00:00+00:00,Slatina,Otelul,0,0,Draw
-Romania,Liga II,2022/2023,2023-02-26T09:00:00+00:00,Minaur Baia Mare,Concordia,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-02-27T15:00:00+00:00,Dinamo Bucuresti,Unirea Constanta,6,0,HomeWin
-Romania,Liga II,2022/2023,2023-03-03T15:00:00+00:00,Otelul,Csikszereda,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-03-04T09:00:00+00:00,Concordia,Ripensia Timisoara,2,1,HomeWin
-Romania,Liga II,2022/2023,2023-03-04T09:00:00+00:00,ACS Sirineasa,Slatina,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-03-04T09:00:00+00:00,Progresul Spartac,Dumbravita,0,0,Draw
-Romania,Liga II,2022/2023,2023-03-04T09:00:00+00:00,Brasov Steagul Renaste,Unirea Constanta,5,2,HomeWin
-Romania,Liga II,2022/2023,2023-03-04T10:00:00+00:00,Unirea Dej,Metaloglobus,1,1,Draw
-Romania,Liga II,2022/2023,2023-03-04T10:00:00+00:00,Viitorul Selimbar,Dinamo Bucuresti,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-03-04T12:30:00+00:00,FC Politehnica Timisoara,Politehnica Iasi,1,3,AwayWin
-Romania,Liga II,2022/2023,2023-03-05T09:00:00+00:00,CSA Steaua Bucuresti,Minaur Baia Mare,3,0,HomeWin
-Romania,Liga II,2022/2023,2023-03-07T17:00:00+00:00,SCM Gloria Buzau,Unirea Slobozia,3,1,HomeWin
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Dinamo Bucuresti,FC Politehnica Timisoara,1,1,Draw
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Politehnica Iasi,Progresul Spartac,3,1,HomeWin
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Ripensia Timisoara,CSA Steaua Bucuresti,0,2,AwayWin
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Metaloglobus,Concordia,2,1,HomeWin
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Csikszereda,ACS Sirineasa,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Minaur Baia Mare,SCM Gloria Buzau,1,1,Draw
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Slatina,Unirea Dej,1,1,Draw
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Unirea Slobozia,Brasov Steagul Renaste,2,2,Draw
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Dumbravita,Otelul,1,1,Draw
-Romania,Liga II,2022/2023,2023-03-12T11:00:00+00:00,Unirea Constanta,Viitorul Selimbar,0,3,AwayWin
-Romania,Liga II,2022/2023,2023-03-16T16:00:00+00:00,CSA Steaua Bucuresti,Unirea Dej,3,0,HomeWin
-Romania,Liga II,2022/2023,2023-03-18T09:00:00+00:00,Ripensia Timisoara,Concordia,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-03-18T09:00:00+00:00,Csikszereda,Slatina,2,0,HomeWin
-Romania,Liga II,2022/2023,2023-03-18T09:00:00+00:00,Minaur Baia Mare,FC Politehnica Timisoara,2,1,HomeWin
-Romania,Liga II,2022/2023,2023-03-18T09:00:00+00:00,Unirea Slobozia,Viitorul Selimbar,2,3,AwayWin
-Romania,Liga II,2022/2023,2023-03-18T09:00:00+00:00,Unirea Constanta,Dumbravita,0,2,AwayWin
-Romania,Liga II,2022/2023,2023-03-18T09:00:00+00:00,Brasov Steagul Renaste,ACS Sirineasa,3,1,HomeWin
-Romania,Liga II,2022/2023,2023-03-19T10:00:00+00:00,Dinamo Bucuresti,SCM Gloria Buzau,1,1,Draw
-Romania,Liga II,2022/2023,2023-03-19T12:15:00+00:00,Otelul,Politehnica Iasi,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-03-30T17:00:00+00:00,Otelul,CSA Steaua Bucuresti,3,2,HomeWin
-Romania,Liga II,2022/2023,2023-03-31T15:00:00+00:00,Politehnica Iasi,SCM Gloria Buzau,1,1,Draw
-Romania,Liga II,2022/2023,2023-04-01T08:00:00+00:00,ACS Sirineasa,Unirea Constanta,7,2,HomeWin
-Romania,Liga II,2022/2023,2023-04-01T08:00:00+00:00,Metaloglobus,Minaur Baia Mare,0,0,Draw
-Romania,Liga II,2022/2023,2023-04-01T08:00:00+00:00,Progresul Spartac,Brasov Steagul Renaste,1,4,AwayWin
-Romania,Liga II,2022/2023,2023-04-01T08:00:00+00:00,Slatina,Unirea Slobozia,0,0,Draw
-Romania,Liga II,2022/2023,2023-04-01T08:00:00+00:00,Dumbravita,Ripensia Timisoara,2,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-02T08:00:00+00:00,FC Politehnica Timisoara,Csikszereda,2,1,HomeWin
-Romania,Liga II,2022/2023,2023-04-02T13:00:00+00:00,Unirea Dej,Dinamo Bucuresti,0,3,AwayWin
-Romania,Liga II,2022/2023,2023-04-07T17:30:00+00:00,Dinamo Bucuresti,Otelul,3,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-08T08:00:00+00:00,Concordia,Dumbravita,3,1,HomeWin
-Romania,Liga II,2022/2023,2023-04-08T08:00:00+00:00,Ripensia Timisoara,ACS Sirineasa,1,1,Draw
-Romania,Liga II,2022/2023,2023-04-08T08:00:00+00:00,Csikszereda,Metaloglobus,2,1,HomeWin
-Romania,Liga II,2022/2023,2023-04-08T08:00:00+00:00,Unirea Slobozia,FC Politehnica Timisoara,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-04-08T08:00:00+00:00,Viitorul Selimbar,Slatina,2,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-08T08:00:00+00:00,Unirea Constanta,Progresul Spartac,0,9,AwayWin
-Romania,Liga II,2022/2023,2023-04-08T09:30:00+00:00,SCM Gloria Buzau,Unirea Dej,0,0,Draw
-Romania,Liga II,2022/2023,2023-04-11T16:00:00+00:00,CSA Steaua Bucuresti,Politehnica Iasi,2,2,Draw
-Romania,Liga II,2022/2023,2023-04-13T17:00:00+00:00,Otelul,SCM Gloria Buzau,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-14T08:00:00+00:00,ACS Sirineasa,Concordia,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-14T08:00:00+00:00,Metaloglobus,Unirea Slobozia,3,3,Draw
-Romania,Liga II,2022/2023,2023-04-14T08:00:00+00:00,FC Politehnica Timisoara,Viitorul Selimbar,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-04-14T08:00:00+00:00,Minaur Baia Mare,Csikszereda,1,1,Draw
-Romania,Liga II,2022/2023,2023-04-14T08:00:00+00:00,Progresul Spartac,Ripensia Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-14T08:00:00+00:00,Brasov Steagul Renaste,Unirea Constanta,9,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-15T11:15:00+00:00,Politehnica Iasi,Unirea Dej,0,0,Draw
-Romania,Liga II,2022/2023,2023-04-18T16:00:00+00:00,CSA Steaua Bucuresti,Dinamo Bucuresti,2,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-21T14:30:00+00:00,Unirea Dej,Otelul,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-04-22T08:00:00+00:00,Concordia,Progresul Spartac,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-22T08:00:00+00:00,Ripensia Timisoara,Brasov Steagul Renaste,0,3,AwayWin
-Romania,Liga II,2022/2023,2023-04-22T08:00:00+00:00,Slatina,FC Politehnica Timisoara,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-22T08:00:00+00:00,Unirea Slobozia,Minaur Baia Mare,0,0,Draw
-Romania,Liga II,2022/2023,2023-04-22T08:00:00+00:00,Viitorul Selimbar,Metaloglobus,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-04-22T08:00:00+00:00,Dumbravita,ACS Sirineasa,4,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-22T09:30:00+00:00,SCM Gloria Buzau,CSA Steaua Bucuresti,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-25T17:00:00+00:00,Dinamo Bucuresti,Politehnica Iasi,1,3,AwayWin
-Romania,Liga II,2022/2023,2023-04-29T08:00:00+00:00,Metaloglobus,Slatina,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-29T08:00:00+00:00,Csikszereda,Unirea Slobozia,3,1,HomeWin
-Romania,Liga II,2022/2023,2023-04-29T08:00:00+00:00,Minaur Baia Mare,Viitorul Selimbar,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-04-29T08:00:00+00:00,Progresul Spartac,Dumbravita,3,2,HomeWin
-Romania,Liga II,2022/2023,2023-04-29T08:00:00+00:00,Unirea Constanta,Ripensia Timisoara,2,0,HomeWin
-Romania,Liga II,2022/2023,2023-04-29T08:00:00+00:00,Brasov Steagul Renaste,Concordia,2,2,Draw
-Romania,Liga II,2022/2023,2023-04-29T09:00:00+00:00,Unirea Dej,CSA Steaua Bucuresti,1,1,Draw
-Romania,Liga II,2022/2023,2023-05-01T14:30:00+00:00,SCM Gloria Buzau,Dinamo Bucuresti,2,2,Draw
-Romania,Liga II,2022/2023,2023-05-02T14:30:00+00:00,Politehnica Iasi,Otelul,2,0,HomeWin
-Romania,Liga II,2022/2023,2023-05-06T08:00:00+00:00,Concordia,Unirea Constanta,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-05-06T08:00:00+00:00,ACS Sirineasa,Progresul Spartac,0,1,AwayWin
-Romania,Liga II,2022/2023,2023-05-06T08:00:00+00:00,FC Politehnica Timisoara,Metaloglobus,0,5,AwayWin
-Romania,Liga II,2022/2023,2023-05-06T08:00:00+00:00,Slatina,Minaur Baia Mare,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-05-06T08:00:00+00:00,Viitorul Selimbar,Csikszereda,1,3,AwayWin
-Romania,Liga II,2022/2023,2023-05-06T08:00:00+00:00,Dumbravita,Brasov Steagul Renaste,1,2,AwayWin
-Romania,Liga II,2022/2023,2023-05-06T11:45:00+00:00,Dinamo Bucuresti,Unirea Dej,0,0,Draw
-Romania,Liga II,2022/2023,2023-05-07T09:00:00+00:00,SCM Gloria Buzau,Politehnica Iasi,1,1,Draw
-Romania,Liga II,2022/2023,2023-05-07T11:30:00+00:00,CSA Steaua Bucuresti,Otelul,1,1,Draw
-Romania,Liga II,2022/2023,2023-05-10T16:00:00+00:00,Politehnica Iasi,CSA Steaua Bucuresti,5,1,HomeWin
-Romania,Liga II,2022/2023,2023-05-11T14:30:00+00:00,Unirea Dej,SCM Gloria Buzau,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-05-11T17:30:00+00:00,Otelul,Dinamo Bucuresti,0,2,AwayWin
-Romania,Liga II,2022/2023,2023-05-13T08:00:00+00:00,Metaloglobus,Progresul Spartac,1,1,Draw
-Romania,Liga II,2022/2023,2023-05-15T14:30:00+00:00,Unirea Dej,Politehnica Iasi,0,0,Draw
-Romania,Liga II,2022/2023,2023-05-15T17:30:00+00:00,Dinamo Bucuresti,CSA Steaua Bucuresti,3,0,HomeWin
-Romania,Liga II,2022/2023,2023-05-16T16:00:00+00:00,SCM Gloria Buzau,Otelul,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-05-20T08:00:00+00:00,Progresul Spartac,Metaloglobus,0,0,Draw
-Romania,Liga II,2022/2023,2023-05-21T10:00:00+00:00,Politehnica Iasi,Dinamo Bucuresti,4,1,HomeWin
-Romania,Liga II,2022/2023,2023-05-21T10:00:00+00:00,Otelul,Unirea Dej,1,0,HomeWin
-Romania,Liga II,2022/2023,2023-05-21T10:00:00+00:00,CSA Steaua Bucuresti,SCM Gloria Buzau,4,2,HomeWin
+Romania,Liga I,2022/2023,2022-07-15T15:30:00+00:00,AFC Hermannstadt,CS Mioveni,3,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-15T18:30:00+00:00,Universitatea Craiova,Sepsi OSK Sfantu Gheorghe,2,2,Draw
+Romania,Liga I,2022/2023,2022-07-16T15:30:00+00:00,Arges Pitesti,Uta Arad,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-16T18:30:00+00:00,CFR 1907 Cluj,Rapid,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-17T15:30:00+00:00,Farul Constanta,U Craiova 1948,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-07-17T18:30:00+00:00,FCSB,Universitatea Cluj,1,1,Draw
+Romania,Liga I,2022/2023,2022-07-18T15:30:00+00:00,FC Botosani,Chindia Targoviste,3,2,HomeWin
+Romania,Liga I,2022/2023,2022-07-18T18:30:00+00:00,Petrolul Ploiesti,FC Voluntari,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-07-22T17:30:00+00:00,CS Mioveni,Farul Constanta,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-07-23T17:30:00+00:00,FC Voluntari,FC Botosani,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-07-24T09:00:00+00:00,Sepsi OSK Sfantu Gheorghe,Arges Pitesti,4,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-24T13:00:00+00:00,U Craiova 1948,CFR 1907 Cluj,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-07-24T15:30:00+00:00,Universitatea Cluj,Universitatea Craiova,1,1,Draw
+Romania,Liga I,2022/2023,2022-07-24T18:30:00+00:00,Rapid,FCSB,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-25T15:30:00+00:00,Chindia Targoviste,AFC Hermannstadt,1,1,Draw
+Romania,Liga I,2022/2023,2022-07-25T18:30:00+00:00,Uta Arad,Petrolul Ploiesti,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-29T15:30:00+00:00,Arges Pitesti,Universitatea Cluj,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-07-29T18:30:00+00:00,Farul Constanta,Chindia Targoviste,0,0,Draw
+Romania,Liga I,2022/2023,2022-07-30T15:30:00+00:00,FC Voluntari,Uta Arad,3,0,HomeWin
+Romania,Liga I,2022/2023,2022-07-30T18:30:00+00:00,CFR 1907 Cluj,CS Mioveni,4,2,HomeWin
+Romania,Liga I,2022/2023,2022-07-31T15:00:00+00:00,Petrolul Ploiesti,Sepsi OSK Sfantu Gheorghe,1,1,Draw
+Romania,Liga I,2022/2023,2022-07-31T17:15:00+00:00,Universitatea Craiova,Rapid,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-07-31T19:30:00+00:00,FCSB,U Craiova 1948,1,1,Draw
+Romania,Liga I,2022/2023,2022-08-01T17:30:00+00:00,AFC Hermannstadt,FC Botosani,1,1,Draw
+Romania,Liga I,2022/2023,2022-08-05T16:00:00+00:00,Universitatea Cluj,Petrolul Ploiesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-08-06T16:00:00+00:00,CS Mioveni,FCSB,1,1,Draw
+Romania,Liga I,2022/2023,2022-08-06T18:45:00+00:00,Rapid,Arges Pitesti,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-08-07T13:00:00+00:00,Sepsi OSK Sfantu Gheorghe,Uta Arad,0,0,Draw
+Romania,Liga I,2022/2023,2022-08-07T15:30:00+00:00,Chindia Targoviste,CFR 1907 Cluj,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-08-07T18:30:00+00:00,U Craiova 1948,Universitatea Craiova,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-08-08T15:00:00+00:00,AFC Hermannstadt,FC Voluntari,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-08-08T18:00:00+00:00,FC Botosani,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2022-08-12T18:30:00+00:00,Arges Pitesti,U Craiova 1948,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-08-13T16:00:00+00:00,Uta Arad,Universitatea Cluj,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-08-13T18:45:00+00:00,Petrolul Ploiesti,Rapid,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-14T13:00:00+00:00,Universitatea Craiova,CS Mioveni,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-14T15:30:00+00:00,CFR 1907 Cluj,FC Botosani,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-08-14T18:30:00+00:00,FCSB,Chindia Targoviste,3,2,HomeWin
+Romania,Liga I,2022/2023,2022-08-15T14:00:00+00:00,FC Voluntari,Sepsi OSK Sfantu Gheorghe,0,0,Draw
+Romania,Liga I,2022/2023,2022-08-15T16:30:00+00:00,Farul Constanta,AFC Hermannstadt,0,0,Draw
+Romania,Liga I,2022/2023,2022-08-19T15:00:00+00:00,CS Mioveni,Arges Pitesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-08-19T18:00:00+00:00,U Craiova 1948,Petrolul Ploiesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-08-20T18:30:00+00:00,Rapid,Uta Arad,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-22T14:00:00+00:00,Universitatea Cluj,Sepsi OSK Sfantu Gheorghe,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-08-22T16:30:00+00:00,Farul Constanta,FC Voluntari,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-08-26T15:45:00+00:00,FC Voluntari,Universitatea Cluj,0,0,Draw
+Romania,Liga I,2022/2023,2022-08-26T18:30:00+00:00,Uta Arad,U Craiova 1948,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-08-27T16:00:00+00:00,Petrolul Ploiesti,CS Mioveni,0,0,Draw
+Romania,Liga I,2022/2023,2022-08-27T18:45:00+00:00,Sepsi OSK Sfantu Gheorghe,Rapid,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-08-28T10:30:00+00:00,Arges Pitesti,Chindia Targoviste,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-08-28T15:30:00+00:00,CFR 1907 Cluj,Farul Constanta,1,3,AwayWin
+Romania,Liga I,2022/2023,2022-08-28T18:30:00+00:00,FCSB,AFC Hermannstadt,2,2,Draw
+Romania,Liga I,2022/2023,2022-08-29T18:00:00+00:00,Universitatea Craiova,FC Botosani,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-30T13:30:00+00:00,CS Mioveni,Uta Arad,1,1,Draw
+Romania,Liga I,2022/2023,2022-08-30T16:15:00+00:00,U Craiova 1948,Sepsi OSK Sfantu Gheorghe,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-30T19:00:00+00:00,Rapid,Universitatea Cluj,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-31T13:30:00+00:00,Chindia Targoviste,Petrolul Ploiesti,2,3,AwayWin
+Romania,Liga I,2022/2023,2022-08-31T16:15:00+00:00,CFR 1907 Cluj,FC Voluntari,4,0,HomeWin
+Romania,Liga I,2022/2023,2022-08-31T19:00:00+00:00,Farul Constanta,FCSB,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-09-01T15:00:00+00:00,FC Botosani,Arges Pitesti,0,0,Draw
+Romania,Liga I,2022/2023,2022-09-01T18:00:00+00:00,AFC Hermannstadt,Universitatea Craiova,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-02T15:45:00+00:00,Sepsi OSK Sfantu Gheorghe,CS Mioveni,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-09-02T18:30:00+00:00,Universitatea Cluj,U Craiova 1948,1,1,Draw
+Romania,Liga I,2022/2023,2022-09-03T16:00:00+00:00,Uta Arad,Chindia Targoviste,1,1,Draw
+Romania,Liga I,2022/2023,2022-09-03T18:45:00+00:00,FC Voluntari,Rapid,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-09-04T18:30:00+00:00,Petrolul Ploiesti,FC Botosani,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-09-05T15:45:00+00:00,Arges Pitesti,AFC Hermannstadt,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-09-05T18:30:00+00:00,Universitatea Craiova,Farul Constanta,4,3,HomeWin
+Romania,Liga I,2022/2023,2022-09-09T15:45:00+00:00,FC Botosani,Uta Arad,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-09-10T10:00:00+00:00,Chindia Targoviste,Sepsi OSK Sfantu Gheorghe,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-09-10T12:00:00+00:00,AFC Hermannstadt,Petrolul Ploiesti,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-09-10T18:30:00+00:00,U Craiova 1948,Rapid,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-11T15:30:00+00:00,Farul Constanta,Arges Pitesti,3,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-11T18:30:00+00:00,CFR 1907 Cluj,Universitatea Craiova,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-12T15:00:00+00:00,CS Mioveni,Universitatea Cluj,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-09-12T18:00:00+00:00,FCSB,FC Voluntari,1,1,Draw
+Romania,Liga I,2022/2023,2022-09-16T15:00:00+00:00,FC Voluntari,U Craiova 1948,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-16T18:00:00+00:00,Petrolul Ploiesti,Farul Constanta,1,3,AwayWin
+Romania,Liga I,2022/2023,2022-09-17T13:45:00+00:00,Uta Arad,AFC Hermannstadt,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-09-17T16:00:00+00:00,Sepsi OSK Sfantu Gheorghe,FC Botosani,7,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-17T18:30:00+00:00,Rapid,CS Mioveni,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-09-18T15:30:00+00:00,Universitatea Cluj,Chindia Targoviste,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-09-18T18:30:00+00:00,Universitatea Craiova,FCSB,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-09-19T17:30:00+00:00,Arges Pitesti,CFR 1907 Cluj,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-09-30T18:00:00+00:00,Universitatea Craiova,FC Voluntari,1,1,Draw
+Romania,Liga I,2022/2023,2022-10-01T16:00:00+00:00,CS Mioveni,U Craiova 1948,2,2,Draw
+Romania,Liga I,2022/2023,2022-10-01T18:30:00+00:00,CFR 1907 Cluj,Petrolul Ploiesti,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-02T10:00:00+00:00,AFC Hermannstadt,Sepsi OSK Sfantu Gheorghe,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-02T15:30:00+00:00,Farul Constanta,Uta Arad,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-02T18:30:00+00:00,FCSB,Arges Pitesti,3,2,HomeWin
+Romania,Liga I,2022/2023,2022-10-03T15:00:00+00:00,FC Botosani,Universitatea Cluj,1,1,Draw
+Romania,Liga I,2022/2023,2022-10-03T18:00:00+00:00,Chindia Targoviste,Rapid,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-10-07T15:00:00+00:00,FC Voluntari,CS Mioveni,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-10-07T18:00:00+00:00,Arges Pitesti,Universitatea Craiova,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-08T12:00:00+00:00,Universitatea Cluj,AFC Hermannstadt,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-08T18:30:00+00:00,Rapid,FC Botosani,1,1,Draw
+Romania,Liga I,2022/2023,2022-10-09T12:30:00+00:00,Sepsi OSK Sfantu Gheorghe,Farul Constanta,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-10-09T18:30:00+00:00,Petrolul Ploiesti,FCSB,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-10T14:30:00+00:00,U Craiova 1948,Chindia Targoviste,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-10-10T17:30:00+00:00,Uta Arad,CFR 1907 Cluj,1,1,Draw
+Romania,Liga I,2022/2023,2022-10-14T15:15:00+00:00,Arges Pitesti,FC Voluntari,0,0,Draw
+Romania,Liga I,2022/2023,2022-10-14T18:00:00+00:00,AFC Hermannstadt,Rapid,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-15T12:30:00+00:00,FC Botosani,U Craiova 1948,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-15T15:00:00+00:00,Farul Constanta,Universitatea Cluj,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-15T18:00:00+00:00,Universitatea Craiova,Petrolul Ploiesti,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-10-16T11:00:00+00:00,Chindia Targoviste,CS Mioveni,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-16T17:30:00+00:00,FCSB,Uta Arad,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-10-17T18:00:00+00:00,CFR 1907 Cluj,Sepsi OSK Sfantu Gheorghe,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-10-21T17:30:00+00:00,Rapid,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2022-10-22T14:00:00+00:00,FC Voluntari,Chindia Targoviste,0,3,AwayWin
+Romania,Liga I,2022/2023,2022-10-22T18:45:00+00:00,U Craiova 1948,AFC Hermannstadt,1,1,Draw
+Romania,Liga I,2022/2023,2022-10-23T10:30:00+00:00,CS Mioveni,FC Botosani,0,0,Draw
+Romania,Liga I,2022/2023,2022-10-23T15:15:00+00:00,Uta Arad,Universitatea Craiova,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-23T18:00:00+00:00,Universitatea Cluj,CFR 1907 Cluj,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-24T15:15:00+00:00,Petrolul Ploiesti,Arges Pitesti,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-10-24T18:00:00+00:00,Sepsi OSK Sfantu Gheorghe,FCSB,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-10-28T15:00:00+00:00,Chindia Targoviste,FC Botosani,2,2,Draw
+Romania,Liga I,2022/2023,2022-10-28T18:00:00+00:00,U Craiova 1948,Farul Constanta,1,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-29T16:00:00+00:00,FC Voluntari,Petrolul Ploiesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-10-29T18:30:00+00:00,Sepsi OSK Sfantu Gheorghe,Universitatea Craiova,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-10-30T16:15:00+00:00,Uta Arad,Arges Pitesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-10-30T19:00:00+00:00,Rapid,CFR 1907 Cluj,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-10-31T16:00:00+00:00,CS Mioveni,AFC Hermannstadt,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-10-31T19:00:00+00:00,Universitatea Cluj,FCSB,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-11-04T16:00:00+00:00,FC Botosani,FC Voluntari,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-11-04T19:00:00+00:00,Farul Constanta,CS Mioveni,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-11-05T13:00:00+00:00,Arges Pitesti,Sepsi OSK Sfantu Gheorghe,0,5,AwayWin
+Romania,Liga I,2022/2023,2022-11-05T16:00:00+00:00,Petrolul Ploiesti,Uta Arad,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-11-05T19:00:00+00:00,Universitatea Craiova,Universitatea Cluj,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-11-06T14:15:00+00:00,AFC Hermannstadt,Chindia Targoviste,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-11-06T19:00:00+00:00,FCSB,Rapid,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-11-07T19:00:00+00:00,CFR 1907 Cluj,U Craiova 1948,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-11-11T19:00:00+00:00,Sepsi OSK Sfantu Gheorghe,Petrolul Ploiesti,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-11-12T15:30:00+00:00,Chindia Targoviste,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2022-11-12T18:30:00+00:00,Rapid,Universitatea Craiova,2,2,Draw
+Romania,Liga I,2022/2023,2022-11-13T13:45:00+00:00,Uta Arad,FC Voluntari,1,1,Draw
+Romania,Liga I,2022/2023,2022-11-13T16:00:00+00:00,CS Mioveni,CFR 1907 Cluj,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-11-13T19:00:00+00:00,U Craiova 1948,FCSB,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-11-14T16:00:00+00:00,Universitatea Cluj,Arges Pitesti,1,1,Draw
+Romania,Liga I,2022/2023,2022-11-14T19:00:00+00:00,FC Botosani,AFC Hermannstadt,0,0,Draw
+Romania,Liga I,2022/2023,2022-11-29T17:00:00+00:00,Chindia Targoviste,Universitatea Craiova,1,1,Draw
+Romania,Liga I,2022/2023,2022-11-30T17:00:00+00:00,AFC Hermannstadt,CFR 1907 Cluj,2,3,AwayWin
+Romania,Liga I,2022/2023,2022-12-01T17:00:00+00:00,FC Botosani,FCSB,2,3,AwayWin
+Romania,Liga I,2022/2023,2022-12-02T13:30:00+00:00,Uta Arad,Sepsi OSK Sfantu Gheorghe,1,4,AwayWin
+Romania,Liga I,2022/2023,2022-12-02T17:00:00+00:00,Petrolul Ploiesti,Universitatea Cluj,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-03T13:30:00+00:00,FC Voluntari,AFC Hermannstadt,3,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-03T17:00:00+00:00,Universitatea Craiova,U Craiova 1948,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-12-04T11:15:00+00:00,Farul Constanta,FC Botosani,8,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-04T13:30:00+00:00,CFR 1907 Cluj,Chindia Targoviste,2,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-04T17:00:00+00:00,Arges Pitesti,Rapid,1,1,Draw
+Romania,Liga I,2022/2023,2022-12-05T17:00:00+00:00,FCSB,CS Mioveni,5,1,HomeWin
+Romania,Liga I,2022/2023,2022-12-09T17:00:00+00:00,Sepsi OSK Sfantu Gheorghe,FC Voluntari,1,1,Draw
+Romania,Liga I,2022/2023,2022-12-10T17:00:00+00:00,AFC Hermannstadt,Farul Constanta,4,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-11T12:30:00+00:00,Universitatea Cluj,Uta Arad,0,0,Draw
+Romania,Liga I,2022/2023,2022-12-11T15:30:00+00:00,FC Botosani,CFR 1907 Cluj,1,1,Draw
+Romania,Liga I,2022/2023,2022-12-11T18:30:00+00:00,Chindia Targoviste,FCSB,0,2,AwayWin
+Romania,Liga I,2022/2023,2022-12-12T15:30:00+00:00,U Craiova 1948,Arges Pitesti,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-12T18:30:00+00:00,CS Mioveni,Universitatea Craiova,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-12-14T17:00:00+00:00,Rapid,Petrolul Ploiesti,3,1,HomeWin
+Romania,Liga I,2022/2023,2022-12-15T18:00:00+00:00,FCSB,CFR 1907 Cluj,0,1,AwayWin
+Romania,Liga I,2022/2023,2022-12-16T18:00:00+00:00,FC Voluntari,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2022-12-17T13:00:00+00:00,Sepsi OSK Sfantu Gheorghe,Universitatea Cluj,2,1,HomeWin
+Romania,Liga I,2022/2023,2022-12-17T18:30:00+00:00,Universitatea Craiova,Chindia Targoviste,3,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-18T10:00:00+00:00,Arges Pitesti,CS Mioveni,2,2,Draw
+Romania,Liga I,2022/2023,2022-12-18T12:30:00+00:00,Petrolul Ploiesti,U Craiova 1948,1,1,Draw
+Romania,Liga I,2022/2023,2022-12-18T18:30:00+00:00,Uta Arad,Rapid,1,1,Draw
+Romania,Liga I,2022/2023,2022-12-19T18:00:00+00:00,FCSB,FC Botosani,1,0,HomeWin
+Romania,Liga I,2022/2023,2022-12-20T18:00:00+00:00,CFR 1907 Cluj,AFC Hermannstadt,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-01-20T14:30:00+00:00,Universitatea Cluj,FC Voluntari,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-01-20T18:00:00+00:00,Rapid,Sepsi OSK Sfantu Gheorghe,3,0,HomeWin
+Romania,Liga I,2022/2023,2023-01-21T15:00:00+00:00,CS Mioveni,Petrolul Ploiesti,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-01-21T18:00:00+00:00,FC Botosani,Universitatea Craiova,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-01-22T13:30:00+00:00,U Craiova 1948,Uta Arad,1,1,Draw
+Romania,Liga I,2022/2023,2023-01-22T18:45:00+00:00,AFC Hermannstadt,FCSB,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-01-23T15:00:00+00:00,Chindia Targoviste,Arges Pitesti,1,1,Draw
+Romania,Liga I,2022/2023,2023-01-23T18:00:00+00:00,Farul Constanta,CFR 1907 Cluj,0,3,AwayWin
+Romania,Liga I,2022/2023,2023-01-27T18:00:00+00:00,Universitatea Cluj,Rapid,0,0,Draw
+Romania,Liga I,2022/2023,2023-01-28T12:30:00+00:00,Uta Arad,CS Mioveni,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-01-28T15:00:00+00:00,Petrolul Ploiesti,Chindia Targoviste,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-01-28T18:00:00+00:00,Universitatea Craiova,AFC Hermannstadt,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-01-29T11:30:00+00:00,Arges Pitesti,FC Botosani,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-01-29T17:00:00+00:00,FCSB,Farul Constanta,2,3,AwayWin
+Romania,Liga I,2022/2023,2023-01-30T18:00:00+00:00,FC Voluntari,CFR 1907 Cluj,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-02-03T15:00:00+00:00,Chindia Targoviste,Uta Arad,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-03T18:00:00+00:00,U Craiova 1948,Universitatea Cluj,5,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-04T12:30:00+00:00,AFC Hermannstadt,Arges Pitesti,1,1,Draw
+Romania,Liga I,2022/2023,2023-02-04T18:00:00+00:00,Rapid,FC Voluntari,4,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-05T13:30:00+00:00,CS Mioveni,Sepsi OSK Sfantu Gheorghe,1,1,Draw
+Romania,Liga I,2022/2023,2023-02-05T19:00:00+00:00,CFR 1907 Cluj,FCSB,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-02-06T15:00:00+00:00,FC Botosani,Petrolul Ploiesti,5,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-06T18:00:00+00:00,Farul Constanta,Universitatea Craiova,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-10T15:00:00+00:00,Universitatea Cluj,CS Mioveni,2,2,Draw
+Romania,Liga I,2022/2023,2023-02-10T18:00:00+00:00,Rapid,U Craiova 1948,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-02-11T12:30:00+00:00,Uta Arad,FC Botosani,3,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-11T18:00:00+00:00,Universitatea Craiova,CFR 1907 Cluj,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-12T15:00:00+00:00,Arges Pitesti,Farul Constanta,0,0,Draw
+Romania,Liga I,2022/2023,2023-02-12T18:00:00+00:00,FC Voluntari,FCSB,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-02-13T15:00:00+00:00,Sepsi OSK Sfantu Gheorghe,Chindia Targoviste,2,2,Draw
+Romania,Liga I,2022/2023,2023-02-13T18:00:00+00:00,Petrolul Ploiesti,AFC Hermannstadt,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-17T15:00:00+00:00,Chindia Targoviste,Universitatea Cluj,2,2,Draw
+Romania,Liga I,2022/2023,2023-02-17T18:00:00+00:00,CS Mioveni,Rapid,0,0,Draw
+Romania,Liga I,2022/2023,2023-02-18T12:30:00+00:00,AFC Hermannstadt,Uta Arad,0,0,Draw
+Romania,Liga I,2022/2023,2023-02-18T18:00:00+00:00,Farul Constanta,Petrolul Ploiesti,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-19T15:00:00+00:00,CFR 1907 Cluj,Arges Pitesti,3,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-19T18:00:00+00:00,FCSB,Universitatea Craiova,1,1,Draw
+Romania,Liga I,2022/2023,2023-02-20T15:00:00+00:00,FC Botosani,Sepsi OSK Sfantu Gheorghe,1,1,Draw
+Romania,Liga I,2022/2023,2023-02-20T18:00:00+00:00,U Craiova 1948,FC Voluntari,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-24T16:00:00+00:00,U Craiova 1948,CS Mioveni,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-24T18:30:00+00:00,Uta Arad,Farul Constanta,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-02-25T12:30:00+00:00,Sepsi OSK Sfantu Gheorghe,AFC Hermannstadt,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-02-25T15:00:00+00:00,Universitatea Cluj,FC Botosani,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-25T18:00:00+00:00,Rapid,Chindia Targoviste,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-26T15:45:00+00:00,FC Voluntari,Universitatea Craiova,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-02-26T18:30:00+00:00,Arges Pitesti,FCSB,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-02-27T18:00:00+00:00,Petrolul Ploiesti,CFR 1907 Cluj,2,5,AwayWin
+Romania,Liga I,2022/2023,2023-02-28T14:00:00+00:00,AFC Hermannstadt,Universitatea Cluj,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-02-28T16:00:00+00:00,Chindia Targoviste,U Craiova 1948,0,0,Draw
+Romania,Liga I,2022/2023,2023-02-28T18:30:00+00:00,Farul Constanta,Sepsi OSK Sfantu Gheorghe,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-01T14:00:00+00:00,CS Mioveni,FC Voluntari,0,3,AwayWin
+Romania,Liga I,2022/2023,2023-03-01T16:00:00+00:00,Universitatea Craiova,Arges Pitesti,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-01T18:30:00+00:00,FC Botosani,Rapid,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-03-02T15:00:00+00:00,CFR 1907 Cluj,Uta Arad,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-03-02T18:00:00+00:00,FCSB,Petrolul Ploiesti,4,1,HomeWin
+Romania,Liga I,2022/2023,2023-03-03T18:00:00+00:00,Universitatea Cluj,Farul Constanta,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-04T15:00:00+00:00,U Craiova 1948,FC Botosani,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-04T18:00:00+00:00,Rapid,AFC Hermannstadt,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-03-05T11:00:00+00:00,CS Mioveni,Chindia Targoviste,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-05T13:30:00+00:00,Petrolul Ploiesti,Universitatea Craiova,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-03-05T19:00:00+00:00,Uta Arad,FCSB,3,1,HomeWin
+Romania,Liga I,2022/2023,2023-03-06T16:00:00+00:00,FC Voluntari,Arges Pitesti,0,0,Draw
+Romania,Liga I,2022/2023,2023-03-06T18:30:00+00:00,Sepsi OSK Sfantu Gheorghe,CFR 1907 Cluj,2,2,Draw
+Romania,Liga I,2022/2023,2023-03-10T15:30:00+00:00,FC Botosani,CS Mioveni,1,1,Draw
+Romania,Liga I,2022/2023,2023-03-10T18:30:00+00:00,Universitatea Craiova,Uta Arad,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-03-11T15:30:00+00:00,Arges Pitesti,Petrolul Ploiesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-03-11T18:30:00+00:00,Farul Constanta,Rapid,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-03-12T19:00:00+00:00,FCSB,Sepsi OSK Sfantu Gheorghe,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-12T19:00:00+00:00,AFC Hermannstadt,U Craiova 1948,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-13T15:30:00+00:00,Chindia Targoviste,FC Voluntari,1,1,Draw
+Romania,Liga I,2022/2023,2023-03-13T18:30:00+00:00,CFR 1907 Cluj,Universitatea Cluj,4,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-16T14:00:00+00:00,Sepsi OSK Sfantu Gheorghe,U Craiova 1948,4,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-17T15:30:00+00:00,FC Voluntari,AFC Hermannstadt,1,1,Draw
+Romania,Liga I,2022/2023,2023-03-17T18:30:00+00:00,Petrolul Ploiesti,Uta Arad,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-18T12:30:00+00:00,FC Botosani,Chindia Targoviste,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-18T18:00:00+00:00,FCSB,Universitatea Craiova,1,1,Draw
+Romania,Liga I,2022/2023,2023-03-19T14:30:00+00:00,Farul Constanta,Sepsi OSK Sfantu Gheorghe,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-03-19T17:00:00+00:00,CFR 1907 Cluj,Rapid,2,2,Draw
+Romania,Liga I,2022/2023,2023-03-20T16:00:00+00:00,U Craiova 1948,CS Mioveni,3,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-20T19:00:00+00:00,Universitatea Cluj,Arges Pitesti,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-03-31T18:00:00+00:00,U Craiova 1948,Petrolul Ploiesti,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-04-01T09:00:00+00:00,Uta Arad,Universitatea Cluj,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-01T14:00:00+00:00,AFC Hermannstadt,FC Botosani,1,1,Draw
+Romania,Liga I,2022/2023,2023-04-01T18:45:00+00:00,Rapid,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2023-04-02T10:30:00+00:00,Arges Pitesti,FC Voluntari,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-02T18:00:00+00:00,Universitatea Craiova,CFR 1907 Cluj,1,1,Draw
+Romania,Liga I,2022/2023,2023-04-03T14:30:00+00:00,CS Mioveni,Chindia Targoviste,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-04-03T17:30:00+00:00,Sepsi OSK Sfantu Gheorghe,FCSB,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-08T12:00:00+00:00,FC Voluntari,Uta Arad,1,1,Draw
+Romania,Liga I,2022/2023,2023-04-08T14:30:00+00:00,Universitatea Cluj,U Craiova 1948,1,3,AwayWin
+Romania,Liga I,2022/2023,2023-04-08T17:30:00+00:00,Farul Constanta,Universitatea Craiova,3,2,HomeWin
+Romania,Liga I,2022/2023,2023-04-09T10:00:00+00:00,Chindia Targoviste,AFC Hermannstadt,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-09T12:30:00+00:00,FC Botosani,Arges Pitesti,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-09T18:00:00+00:00,CFR 1907 Cluj,FCSB,1,1,Draw
+Romania,Liga I,2022/2023,2023-04-10T14:30:00+00:00,Petrolul Ploiesti,CS Mioveni,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-10T17:30:00+00:00,Sepsi OSK Sfantu Gheorghe,Rapid,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-14T15:00:00+00:00,U Craiova 1948,FC Voluntari,3,3,Draw
+Romania,Liga I,2022/2023,2023-04-14T18:00:00+00:00,Uta Arad,FC Botosani,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-15T09:00:00+00:00,CS Mioveni,AFC Hermannstadt,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-15T16:00:00+00:00,CFR 1907 Cluj,Sepsi OSK Sfantu Gheorghe,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-04-16T15:15:00+00:00,Petrolul Ploiesti,Universitatea Cluj,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-16T18:00:00+00:00,Universitatea Craiova,Rapid,3,1,HomeWin
+Romania,Liga I,2022/2023,2023-04-17T14:30:00+00:00,Arges Pitesti,Chindia Targoviste,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-17T17:30:00+00:00,FCSB,Farul Constanta,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-04-21T17:30:00+00:00,Sepsi OSK Sfantu Gheorghe,Universitatea Craiova,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-22T12:00:00+00:00,AFC Hermannstadt,Arges Pitesti,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-04-22T14:30:00+00:00,FC Botosani,U Craiova 1948,0,0,Draw
+Romania,Liga I,2022/2023,2023-04-22T17:30:00+00:00,Farul Constanta,CFR 1907 Cluj,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-23T11:00:00+00:00,Chindia Targoviste,Uta Arad,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-04-23T17:30:00+00:00,Rapid,FCSB,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-24T14:30:00+00:00,Universitatea Cluj,CS Mioveni,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-24T17:30:00+00:00,FC Voluntari,Petrolul Ploiesti,2,2,Draw
+Romania,Liga I,2022/2023,2023-04-28T17:30:00+00:00,U Craiova 1948,Chindia Targoviste,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-29T11:30:00+00:00,CS Mioveni,Arges Pitesti,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-04-29T14:00:00+00:00,Petrolul Ploiesti,FC Botosani,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-04-29T18:45:00+00:00,Sepsi OSK Sfantu Gheorghe,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2023-04-30T18:00:00+00:00,Universitatea Craiova,FCSB,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-05-01T12:00:00+00:00,Universitatea Cluj,FC Voluntari,2,3,AwayWin
+Romania,Liga I,2022/2023,2023-05-01T17:30:00+00:00,Rapid,CFR 1907 Cluj,3,1,HomeWin
+Romania,Liga I,2022/2023,2023-05-02T17:00:00+00:00,Uta Arad,AFC Hermannstadt,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-05-05T14:30:00+00:00,FC Voluntari,CS Mioveni,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-05-05T17:30:00+00:00,Chindia Targoviste,Petrolul Ploiesti,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-05-06T09:30:00+00:00,FC Botosani,Universitatea Cluj,0,0,Draw
+Romania,Liga I,2022/2023,2023-05-06T18:30:00+00:00,Farul Constanta,Rapid,7,2,HomeWin
+Romania,Liga I,2022/2023,2023-05-07T18:00:00+00:00,CFR 1907 Cluj,Universitatea Craiova,1,1,Draw
+Romania,Liga I,2022/2023,2023-05-08T13:30:00+00:00,AFC Hermannstadt,U Craiova 1948,0,0,Draw
+Romania,Liga I,2022/2023,2023-05-08T15:30:00+00:00,Arges Pitesti,Uta Arad,2,2,Draw
+Romania,Liga I,2022/2023,2023-05-08T18:00:00+00:00,FCSB,Sepsi OSK Sfantu Gheorghe,3,1,HomeWin
+Romania,Liga I,2022/2023,2023-05-12T14:30:00+00:00,FC Voluntari,FC Botosani,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-05-12T17:30:00+00:00,Rapid,Sepsi OSK Sfantu Gheorghe,0,0,Draw
+Romania,Liga I,2022/2023,2023-05-13T11:30:00+00:00,Petrolul Ploiesti,AFC Hermannstadt,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-05-13T16:00:00+00:00,Universitatea Cluj,Chindia Targoviste,2,0,HomeWin
+Romania,Liga I,2022/2023,2023-05-13T18:30:00+00:00,Universitatea Craiova,Farul Constanta,1,1,Draw
+Romania,Liga I,2022/2023,2023-05-14T10:30:00+00:00,CS Mioveni,Uta Arad,0,2,AwayWin
+Romania,Liga I,2022/2023,2023-05-14T15:15:00+00:00,U Craiova 1948,Arges Pitesti,2,1,HomeWin
+Romania,Liga I,2022/2023,2023-05-14T18:00:00+00:00,FCSB,CFR 1907 Cluj,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-05-19T14:30:00+00:00,AFC Hermannstadt,Universitatea Cluj,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-05-19T17:00:00+00:00,Chindia Targoviste,FC Voluntari,2,2,Draw
+Romania,Liga I,2022/2023,2023-05-19T17:00:00+00:00,Uta Arad,U Craiova 1948,1,1,Draw
+Romania,Liga I,2022/2023,2023-05-19T17:00:00+00:00,Arges Pitesti,Petrolul Ploiesti,3,0,HomeWin
+Romania,Liga I,2022/2023,2023-05-20T11:45:00+00:00,FC Botosani,CS Mioveni,5,1,HomeWin
+Romania,Liga I,2022/2023,2023-05-20T17:30:00+00:00,Sepsi OSK Sfantu Gheorghe,CFR 1907 Cluj,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-05-21T18:00:00+00:00,Farul Constanta,FCSB,3,2,HomeWin
+Romania,Liga I,2022/2023,2023-05-22T17:30:00+00:00,Rapid,Universitatea Craiova,2,3,AwayWin
+Romania,Liga I,2022/2023,2023-05-26T17:00:00+00:00,U Craiova 1948,FC Voluntari,3,3,Draw
+Romania,Liga I,2022/2023,2023-05-27T17:30:00+00:00,FCSB,Rapid,1,5,AwayWin
+Romania,Liga I,2022/2023,2023-05-28T00:00:00+00:00,SCM Gloria Buzau,Uta Arad,0,0,Draw
+Romania,Liga I,2022/2023,2023-05-28T18:00:00+00:00,Universitatea Craiova,Sepsi OSK Sfantu Gheorghe,0,1,AwayWin
+Romania,Liga I,2022/2023,2023-05-28T18:00:00+00:00,CFR 1907 Cluj,Farul Constanta,1,2,AwayWin
+Romania,Liga I,2022/2023,2023-05-29T17:00:00+00:00,Dinamo Bucuresti,Arges Pitesti,6,1,HomeWin
+Romania,Liga I,2022/2023,2023-06-01T17:30:00+00:00,CFR 1907 Cluj,U Craiova 1948,1,0,HomeWin
+Romania,Liga I,2022/2023,2023-06-03T18:00:00+00:00,Arges Pitesti,Dinamo Bucuresti,4,2,HomeWin
+Romania,Liga I,2022/2023,2023-06-04T18:00:00+00:00,Uta Arad,SCM Gloria Buzau,5,1,HomeWin
 Romania,Liga II,2021/2022,2021-07-31T08:00:00+00:00,FC Astra Giurgiu,Metaloglobus,1,2,AwayWin
 Romania,Liga II,2021/2022,2021-07-31T08:00:00+00:00,Concordia,Unirea Constanta,2,0,HomeWin
 Romania,Liga II,2021/2022,2021-07-31T08:00:00+00:00,Ripensia Timisoara,Dunarea Calarasi,3,3,Draw
