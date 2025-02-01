@@ -21,8 +21,8 @@ Follow these steps to run the project:
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/ThisPDF/Football-Game-Predictor.git
-cd Football-Game-Predictor
+git clone https://github.com/ThisPDF/Footbal-Game-Predictor.git
+cd Footbal-Game-Predictor
 ```
 
 ### 2. Install Dependencies:
