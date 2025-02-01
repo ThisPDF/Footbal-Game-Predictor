@@ -3,4 +3,4 @@ services:
   app:
     build: .
     ports:
-      - "80:80"  # Maps host port 80 to container port 80
+      - "8080:80"  # Maps host port 80 to container port 80
