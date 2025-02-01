@@ -218,5 +218,4 @@ def predictions():
     return render_template("predictions.html", leagues=leagues, logs=user_logs)
 
 if __name__ == "__main__":
-    webbrowser.open("http://127.0.0.1:5001")  # Auto open in browser
-    app.run(host="0.0.0.0", port=5001, debug=False)
+    app.run(host="0.0.0.0", port=80, debug=False)
