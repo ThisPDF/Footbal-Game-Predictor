@@ -125,19 +125,39 @@
         }
 
         function restrictTeamSelection() {
-            const homeTeamSelect = document.getElementById("homeTeam");
-            const awayTeamSelect = document.getElementById("awayTeam");
-            const homeTeam = homeTeamSelect.value;
-            const awayTeam = awayTeamSelect.value;
+    const homeTeamSelect = document.getElementById("homeTeam");
+    const awayTeamSelect = document.getElementById("awayTeam");
+    const homeTeam = homeTeamSelect.value;
+    const awayTeam = awayTeamSelect.value;
 
-            Array.from(homeTeamSelect.options).forEach(option => {
-                option.hidden = (option.value === awayTeam);
-            });
+    // Enable all options first
+    Array.from(homeTeamSelect.options).forEach(option => {
+        option.disabled = false;
+    });
 
-            Array.from(awayTeamSelect.options).forEach(option => {
-                option.hidden = (option.value === homeTeam);
-            });
-        }
+    Array.from(awayTeamSelect.options).forEach(option => {
+        option.disabled = false;
+    });
+
+    // Disable the selected home team in the away team dropdown
+    if (homeTeam) {
+        Array.from(awayTeamSelect.options).forEach(option => {
+            if (option.value === homeTeam) {
+                option.disabled = true;
+            }
+        });
+    }
+
+    // Disable the selected away team in the home team dropdown
+    if (awayTeam) {
+        Array.from(homeTeamSelect.options).forEach(option => {
+            if (option.value === awayTeam) {
+                option.disabled = true;
+            }
+        });
+    }
+}
+
     </script>
 </body>
 </html>

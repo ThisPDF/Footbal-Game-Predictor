@@ -171,7 +171,7 @@ def use_last_trained():
         return jsonify({
             "status": "success",
             "message": f"{model_type.capitalize()} model loaded successfully.",
-            "redirect": "/predictions"  # 🚀 Added redirect field
+            "redirect": "/predictions"
         })
     except Exception as e:
         return jsonify({"status": "error", "message": str(e)})
